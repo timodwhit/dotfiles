@@ -2,17 +2,17 @@
 	"folders":
 	[
 		{
-			"path": "/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe",
+			"path": "~/vagrant/benzadobe/assets/benzadobe/current/profiles/benzadobe",
       "folder_exclude_patterns": [".sass-cache", "stylesheets", "themes", "modules"],
       "file_exlude_patterns":["*.scssc", "*.css", ".gitignore", ".editorconfig", "Gemfile", "Gemfile.lock"]
 		},
     {
-      "path": "/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora",
+      "path": "~/vagrant/benzadobe/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora",
       "folder_exclude_patterns": [".sass-cache", "stylesheets"],
       "file_exlude_patterns":["*.scssc", "*.css", ".gitignore", ".editorconfig", "Gemfile", "Gemfile.lock"]
     },
     {
-      "path": "/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/modules"
+      "path": "~/vagrant/benzadobe/assets/benzadobe/current/profiles/benzadobe/modules"
     }
 	]
 }

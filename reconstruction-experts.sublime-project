@@ -2,15 +2,15 @@
 	"folders":
 	[
 		{
-			"path": "/Users/timwhitney/sites/drupal-lamp/assets/re/current/sites/all/themes/nmd_aurora",
+			"path": "~/vagrant/re/assets/re/current/sites/all/themes/nmd_aurora",
 			"folder_exclude_patterns": [".sass-cache"],
 			"file_exlude_patterhns":["*.scssc", "*.css", ".gitignore", ".editorconfig", "Gemfile", "Gemfile.lock"]
 		},
 		{
-			"path": "/Users/timwhitney/sites/drupal-lamp/assets/re/current/sites/all/modules"
+			"path": "~/vagrant/re/assets/re/current/sites/all/modules"
 		},
 		{
-			"path": "/Users/timwhitney/sites/drupal-lamp/assets/re/current/profiles/nmd"
+			"path": "~/vagrant/re/assets/re/current/profiles/nmd"
 		}
 	]
 }

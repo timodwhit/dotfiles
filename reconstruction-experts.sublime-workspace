@@ -327,17 +327,6 @@
 	},
 	"buffers":
 	[
-		{
-			"contents": "",
-			"file": "/Users/timwhitney/sites/drupal-lamp/assets/re/current/sites/all/modules/contrib/entityform/entityform_type.admin.inc",
-			"file_size": -1,
-			"file_write_time": -1,
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -395,9 +384,10 @@
 	},
 	"file_history":
 	[
+		"/Users/timwhitney/sites/drupal-lamp/assets/re/current/sites/all/modules/contrib/entityform/entityform_type.admin.inc",
+		"/Users/timw/git/project/reconstruction-experts.sublime-project",
 		"/Users/timwhitney/sites/drupal-lamp/assets/re/current/sites/all/modules/contrib/entityform/entityform.admin.inc",
 		"/Users/timwhitney/sites/drupal-lamp/assets/re/current/sites/all/modules/contrib/entityform/",
-		"/Users/timwhitney/sites/drupal-lamp/assets/re/current/sites/all/modules/contrib/entityform/entityform_type.admin.inc",
 		"/Users/timwhitney/sites/drupal-lamp/assets/re/current/sites/all/themes/nmd_aurora/sass/partials/global/_forms.scss",
 		"/Users/timwhitney/sites/drupal-lamp/assets/re/current/sites/all/themes/nmd_aurora/sass/partials/design/blocks/local_globals/_main_nav.scss",
 		"/Users/timwhitney/sites/drupal-lamp/assets/re/current/sites/all/modules/contrib/",
@@ -521,8 +511,7 @@
 		"/Users/timwhitney/sites/drupal-lamp/assets/re/current/profiles/nmd/example_data/projects/ProjectImageMigration.csv",
 		"/Users/timwhitney/sites/drupal-lamp/assets/re/current/profiles/nmd/modules/contrib/field_collection/field_collection.migrate.inc",
 		"/Users/timwhitney/sites/drupal-lamp/assets/re/current/profiles/nmd/modules/contrib/field_collection/field_colection.migrate.inc",
-		"/Users/timwhitney/sites/drupal-lamp/assets/re/current/profiles/nmd/example_data/images/categories",
-		"/Users/timwhitney/sites/drupal-lamp/assets/re/current/profiles/nmd/example_data/CateogryTagsMigration.csv"
+		"/Users/timwhitney/sites/drupal-lamp/assets/re/current/profiles/nmd/example_data/images/categories"
 	],
 	"find":
 	{
@@ -688,37 +677,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/Users/timwhitney/sites/drupal-lamp/assets/re/current/sites/all/modules/contrib/entityform/entityform_type.admin.inc",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1642.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],

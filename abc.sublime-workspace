@@ -456,48 +456,21 @@
 	"buffers":
 	[
 		{
-			"contents": "",
-			"file": "/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/sass/partials/layout/_layout.scss",
-			"file_size": -1,
-			"file_write_time": -1,
+			"file": "abc.sublime-project",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 939,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "benzadobe.sublime-project",
+			"contents": "////////////////////////\n// Style File\n//\n// This file gets turned into style.css. This file should really hold nothing except for imports of your base, style guide, layout, and design partials.\n////////////////////////\n\n//////////////////////////////\n// Legacy Support Setup\n//////////////////////////////\n$legacy-support-for-ie6: false;\n$legacy-support-for-ie7: false;\n$legacy-support-for-ie8: true;\n\n$legacy-support-for-mozilla: false;\n\n////////////////////////\n// Base Import\n////////////////////////\n@import 'partials/base/base';\n\n////////////////////////\n// Import Style Guide\n////////////////////////\n@import 'partials/styleguide/style-guide';\n\n////////////////////////\n// Import Layout\n////////////////////////\n@import 'partials/layout/layout';\n\n////////////////////////\n// Import Design\n////////////////////////\n@import 'partials/design/design';\n",
+			"file": "/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/style.scss",
+			"file_size": 855,
+			"file_write_time": 1380143916000000,
 			"settings":
 			{
-				"buffer_size": 688,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/template.php",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/js/respond.js",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "#block-system-main{\n  background:white;\n  padding:25px 20px;\n  .front &{\n    background:none;\n  }\n\n  .page-node-1 &,\n  .page-node-2 &,\n  .page-node-3 &,\n  .page-node-4 &,\n  .page-node-5 &,\n  .page-node-6 &{\n    padding:0;\n  }\n}\n#main-region{\n  @include background(linear-gradient(top, #5C5C5C, #353535));\n}\n",
-			"file": "/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/sass/partials/design/blocks/_system_main.scss",
-			"file_size": 369,
-			"file_write_time": 1379021928000000,
-			"settings":
-			{
-				"buffer_size": 307,
+				"buffer_size": 855,
 				"line_ending": "Unix"
 			}
 		}
@@ -508,6 +481,14 @@
 		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"to",
+				"Set Syntax: Todo"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
 			[
 				"syn",
 				"Set Syntax: PHP"
@@ -533,15 +514,11 @@
 				"Package Control: Install Package"
 			],
 			[
-				"insta",
-				"Package Control: Install Package"
-			],
-			[
 				"pac",
 				"Package Control: Install Package"
 			]
 		],
-		"width": 476.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -558,6 +535,8 @@
 	},
 	"file_history":
 	[
+		"/Volumes/HDD/timw/Documents/todos/093013.todo",
+		"/Users/timw/vagrant/soha/.drupal_lamp.json",
 		"/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/sass/partials/base/_variables.scss",
 		"/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/sass/partials/design/blocks/local_globals/_main_menu.scss",
 		"/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/sass/partials/design/node/_news-page.scss",
@@ -683,9 +662,7 @@
 		"/Users/timwhitney/sites/drupal-lamp/assets/re/current/sites/all/themes/nmd_aurora/template.php",
 		"/Users/timwhitney/sites/drupal-lamp/assets/re/current/sites/all/modules/custom/local_globals/javascripts/jquery.front_sub_slider.js",
 		"/Users/timwhitney/sites/drupal-lamp/assets/re/current/sites/all/themes/nmd_aurora/sass/partials/base/_variables.scss",
-		"/Users/timwhitney/sites/drupal-lamp/assets/re/current/sites/all/themes/nmd_aurora/sass/partials/global/_buttons.scss",
-		"/Users/timwhitney/sublime/reconstruction-experts.sublime-project",
-		"/Users/timwhitney/Google Drive/notes/Tue.07.30.13/todo.TODO"
+		"/Users/timwhitney/sites/drupal-lamp/assets/re/current/sites/all/themes/nmd_aurora/sass/partials/global/_buttons.scss"
 	],
 	"find":
 	{
@@ -706,6 +683,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"benzadobe",
 			"float",
 			"3",
 			"height",
@@ -832,8 +810,7 @@
 			"Service",
 			"inc",
 			"+\n+/**\n+",
-			"\n+/**\n",
-			"prepare"
+			"\n+/**\n"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -851,30 +828,27 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/sass/partials/layout/_layout.scss",
+					"file": "abc.sublime-project",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 939,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								184,
+								184
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -884,38 +858,10 @@
 				},
 				{
 					"buffer": 1,
-					"file": "benzadobe.sublime-project",
+					"file": "/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/style.scss",
 					"settings":
 					{
-						"buffer_size": 688,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								687,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/template.php",
-					"settings":
-					{
-						"buffer_size": 0,
+						"buffer_size": 855,
 						"regions":
 						{
 						},
@@ -928,63 +874,7 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2820.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/js/respond.js",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/sass/partials/design/blocks/_system_main.scss",
-					"settings":
-					{
-						"buffer_size": 307,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								307,
-								307
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1561,8 +1451,8 @@
 		"selected_items":
 		[
 			[
-				"abc",
-				"/Users/timw/git/project/abc.sublime-project"
+				"",
+				"/Users/timw/git/project/benzadobe.sublime-project"
 			],
 			[
 				"bez",
@@ -1578,10 +1468,6 @@
 			],
 			[
 				"RE",
-				"/Users/timwhitney/sublime/reconstruction-experts.sublime-project"
-			],
-			[
-				"",
 				"/Users/timwhitney/sublime/reconstruction-experts.sublime-project"
 			],
 			[
