@@ -1,0 +1,15 @@
+{
+	"folders":
+	[
+    {
+      "path": "/Users/timwhitney/sites/drupal-lamp/assets/sixflags/current/docroot/sites/default"
+    },
+		{
+			"path": "/Users/timwhitney/sites/drupal-lamp/assets/sixflags/current/docroot/sites/all/modules"
+		},
+    {
+      "path": "/Users/timwhitney/sites/drupal-lamp/assets/sixflags/current/docroot/sites/all/themes"
+
+    }
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"folders":
+	[
+		{
+			"path": "/Users/timwhitney/sites/drupal-lamp/assets/cic/current/sites/all/themes/nmd_aurora",
+      "folder_exclude_patterns":["stylesheets", ".sass-cache"]
+		},
+    {
+      "path": "/Users/timwhitney/sites/drupal-lamp/assets/cic/current/sites/all/modules"
+    }
+	]
+}

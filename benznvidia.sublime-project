@@ -1,0 +1,27 @@
+{
+	"folders":
+	[
+		{
+
+			"path": "/Users/timwhitney/vagrant/benznvidia/assets/benznvidia/current/profiles/benznvidia",
+			"folder_exclude_patterns":
+			[
+				".sass-cache",
+				"stylesheets",
+				"themes",
+				"modules"
+			]
+		},
+		{
+			"path": "/Users/timwhitney/vagrant/benznvidia/assets/benznvidia/current/profiles/benznvidia/themes/nmd_aurora",
+			"folder_exclude_patterns":
+			[
+				".sass-cache",
+				"stylesheets"
+			]
+		},
+		{
+			"path": "/Users/timwhitney/vagrant/benznvidia/assets/benznvidia/current/profiles/benznvidia/modules"
+		}
+	]
+}
