@@ -456,10 +456,6 @@
 	"buffers":
 	[
 		{
-			"contents": "",
-			"file": "/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/sass/partials/layout/_layout.scss",
-			"file_size": -1,
-			"file_write_time": -1,
 			"settings":
 			{
 				"buffer_size": 0,
@@ -475,7 +471,10 @@
 			}
 		},
 		{
+			"contents": "",
 			"file": "/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/template.php",
+			"file_size": -1,
+			"file_write_time": -1,
 			"settings":
 			{
 				"buffer_size": 0,
@@ -483,7 +482,10 @@
 			}
 		},
 		{
+			"contents": "",
 			"file": "/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/js/respond.js",
+			"file_size": -1,
+			"file_write_time": -1,
 			"settings":
 			{
 				"buffer_size": 0,
@@ -498,6 +500,49 @@
 			"settings":
 			{
 				"buffer_size": 307,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/timw/vagrant/benzadobe/assets/benzadobe/current/profiles/benzadobe/migrations/basic_page_content.inc",
+			"settings":
+			{
+				"buffer_size": 2204,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/timw/vagrant/benzadobe/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/sass/partials/design/blocks/local_globals/_main_menu.scss",
+			"settings":
+			{
+				"buffer_size": 4882,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/timw/vagrant/benzadobe/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/js/nmd_aurora_search.js",
+			"settings":
+			{
+				"buffer_size": 416,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/timw/vagrant/benzadobe/assets/benzadobe/current/profiles/benzadobe/modules/custom/local_globals/local_globals.admin.inc",
+			"settings":
+			{
+				"buffer_size": 2568,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "w<?php\n\n/**\n * @file\n * Use the Migrate module to import example basic page content.\n *\n * We will use the Migrate API to insert this data into Drupal.\n */\n\n/**\n * Define the basic page migration.\n */\nclass HomePagesMigration extends NmdMigrationCSVNode {\n  const GROUP = 'nmd_production_content';\n  protected $csvFilename = 'home_pages.csv';\n  public $description = 'Inject example home page content.';\n  protected $nodeType = 'homepage';\n  protected $dependencies = array('BasicPages');\n\n  protected function columns() {\n    return array(\n      array('id', 'The source ID'),\n      array('title', 'Title'),\n      array('image', 'Image Name'),\n      array('publish', 'Publish'),\n    );\n  }\n\n  protected function mapFields() {\n    $this->addFieldMapping('uid')\n      ->defaultValue(1);\n    $this->addFieldMapping('title', 'title');\n    // Image Directory\n    $image_directory = self::dataDirectory() . '/files/home_page/';\n    $this->addFieldMapping('field_home_image', 'image');\n    $this->addFieldMapping('field_home_image:source_dir')\n      ->defaultValue($image_directory);\n    $this->addFieldMapping('status', 'publish')->defaultValue(1);\n  }\n\n  public function complete($node, stdClass $row) {\n    if(!empty($node)){\n      variable_set('site_frontpage','node/' . $node->nid);\n    }\n  }\n}\n\nclass TestHomePagesMigration extends HomePagesMigration {\n  const GROUP = 'nmd_testing_content';\n  const DATA_DIRECTORY = 'example_data';\n  protected $dependencies = array('TestBasicPages');\n}\n\nclass HomePagesHighlightMigration extends NmdMigrationCSVFieldCollection {\n  const GROUP = 'nmd_production_content';\n  /* CLIENT IS NOT PROVIDING THIS CONTENT */\n  const DATA_DIRECTORY = 'example_data';\n  public $description = 'Inject example home page content for the field collections.';\n  protected $dependencies = array('HomePages');\n  protected $fcFieldName = 'field_home_highlights';\n  protected $csvFilename = 'HomePagesHighlightMigration.csv';\n  protected function columns() {\n    return array(\n      array('id', 'The source ID'),\n      array('id_fk', 'The foreign ID'),\n      array('field_highlight_title', 'Title'),\n      array('field_highlight_subtitle', 'Subtitle'),\n    );\n  }\n\n  protected function mapFields() {\n    // Map the node's fields (destination, source)\n    $this->addFieldMapping('host_entity_id', 'id_fk')\n      ->sourceMigration('HomePages');\n    $this->addSimpleMappings(array(\n        'field_highlight_title',\n        'field_highlight_subtitle',\n      ));\n  }\n}\n\nclass TestHomePagesHighlightMigration extends HomePagesHighlightMigration {\n  const GROUP = 'nmd_testing_content';\n  const DATA_DIRECTORY = 'example_data';\n  protected $dependencies = array('TestHomePages');\n\n  protected function mapFields() {\n    parent::mapFields();\n    // Remap field with the Test migration\n    $this->removeFieldMapping('host_entity_id');\n    $this->addFieldMapping('host_entity_id', 'id_fk')\n      ->sourceMigration('TestHomePages');\n  }\n}\n\n",
+			"file": "/Users/timw/vagrant/benzadobe/assets/benzadobe/current/profiles/benzadobe/migrations/home_page_content.inc",
+			"file_size": 2942,
+			"file_write_time": 1380140596000000,
+			"settings":
+			{
+				"buffer_size": 2943,
 				"line_ending": "Unix"
 			}
 		}
@@ -558,6 +603,10 @@
 	},
 	"file_history":
 	[
+		"/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/sass/partials/layout/_layout.scss",
+		"/Users/timw/vagrant/benzadobe/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/templates/html.tpl.php",
+		"/Users/timw/vagrant/benzadobe/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/nmd_aurora.info",
+		"/Users/timw/vagrant/benzadobe/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/template.php",
 		"/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/sass/partials/base/_variables.scss",
 		"/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/sass/partials/design/blocks/local_globals/_main_menu.scss",
 		"/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/sass/partials/design/node/_news-page.scss",
@@ -581,7 +630,6 @@
 		"/Users/timwhitney/.zshrc",
 		"/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/modules/custom/local_globals/templates/main_menu.tpl.php",
 		"/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/sass/partials/styleguide/_link.scss",
-		"/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/sass/partials/layout/_layout.scss",
 		"/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/sass/partials/styleguide/_search.scss",
 		"/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/sass/partials/design/blocks/local_globals/_mobile_home.scss",
 		"/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/sass/partials/styleguide/_user_interface.scss",
@@ -682,10 +730,7 @@
 		"/etc/hosts",
 		"/Users/timwhitney/sites/drupal-lamp/assets/re/current/sites/all/themes/nmd_aurora/template.php",
 		"/Users/timwhitney/sites/drupal-lamp/assets/re/current/sites/all/modules/custom/local_globals/javascripts/jquery.front_sub_slider.js",
-		"/Users/timwhitney/sites/drupal-lamp/assets/re/current/sites/all/themes/nmd_aurora/sass/partials/base/_variables.scss",
-		"/Users/timwhitney/sites/drupal-lamp/assets/re/current/sites/all/themes/nmd_aurora/sass/partials/global/_buttons.scss",
-		"/Users/timwhitney/sublime/reconstruction-experts.sublime-project",
-		"/Users/timwhitney/Google Drive/notes/Tue.07.30.13/todo.TODO"
+		"/Users/timwhitney/sites/drupal-lamp/assets/re/current/sites/all/themes/nmd_aurora/sass/partials/base/_variables.scss"
 	],
 	"find":
 	{
@@ -851,12 +896,10 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/sass/partials/layout/_layout.scss",
 					"settings":
 					{
 						"buffer_size": 0,
@@ -872,9 +915,7 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -933,7 +974,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2820.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -983,6 +1024,146 @@
 						"settings":
 						{
 							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/timw/vagrant/benzadobe/assets/benzadobe/current/profiles/benzadobe/migrations/basic_page_content.inc",
+					"settings":
+					{
+						"buffer_size": 2204,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/timw/vagrant/benzadobe/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/sass/partials/design/blocks/local_globals/_main_menu.scss",
+					"settings":
+					{
+						"buffer_size": 4882,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								472,
+								412
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Users/timw/vagrant/benzadobe/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/js/nmd_aurora_search.js",
+					"settings":
+					{
+						"buffer_size": 416,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								416,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/Users/timw/vagrant/benzadobe/assets/benzadobe/current/profiles/benzadobe/modules/custom/local_globals/local_globals.admin.inc",
+					"settings":
+					{
+						"buffer_size": 2568,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/Users/timw/vagrant/benzadobe/assets/benzadobe/current/profiles/benzadobe/migrations/home_page_content.inc",
+					"settings":
+					{
+						"buffer_size": 2943,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1076,
+								858
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -1041,6 +1222,38 @@
 		"selected_items":
 		[
 			[
+				"local",
+				"modules/custom/local_globals/local_globals.admin.inc"
+			],
+			[
+				"nmdaur",
+				"nmd_aurora/js/nmd_aurora_search.js"
+			],
+			[
+				"empla",
+				"nmd_aurora/template.php"
+			],
+			[
+				"temp",
+				"nmd_aurora/template.php"
+			],
+			[
+				"main",
+				"nmd_aurora/sass/partials/design/blocks/local_globals/_main_menu.scss"
+			],
+			[
+				"nmd_a",
+				"nmd_aurora/nmd_aurora.info"
+			],
+			[
+				"html",
+				"nmd_aurora/templates/html.tpl.php"
+			],
+			[
+				"basic",
+				"benzadobe/migrations/basic_page_content.inc"
+			],
+			[
 				"",
 				"/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/sass/partials/layout/_layout.scss"
 			],
@@ -1057,20 +1270,12 @@
 				"nmd_aurora/sass/partials/base/_variables.scss"
 			],
 			[
-				"main",
-				"nmd_aurora/sass/partials/design/blocks/local_globals/_main_menu.scss"
-			],
-			[
 				"table",
 				"nmd_aurora/sass/partials/styleguide/_tables.scss"
 			],
 			[
 				"rw",
 				"modules/custom/rwd_table/rwd_table.module"
-			],
-			[
-				"html",
-				"nmd_aurora/templates/html.tpl.php"
 			],
 			[
 				"variabe",
@@ -1151,10 +1356,6 @@
 			[
 				"footer",
 				"nmd_aurora/sass/partials/design/blocks/local_globals/_footer.scss"
-			],
-			[
-				"local",
-				"modules/custom/local_globals/local_globals.admin.inc"
 			],
 			[
 				"blockhel",
@@ -1437,10 +1638,6 @@
 				"nmd/nmd.info"
 			],
 			[
-				"basic",
-				"nmd/migrations/basic_page.inc"
-			],
-			[
 				"frontsu",
 				"modules/custom/local_globals/templates/front_sub_slider.tpl.php"
 			],
@@ -1535,22 +1732,6 @@
 			[
 				"servblock",
 				"nmd_aurora/sass/partials/design/blocks/views/_services-blocks-projects.scss"
-			],
-			[
-				"profescs",
-				"nmd_aurora/sass/partials/design/blocks/views/_services-services-feat-project.scss"
-			],
-			[
-				"viewsscs",
-				"nmd_aurora/sass/partials/design/blocks/views/_views.scss"
-			],
-			[
-				"propro",
-				"nmd_aurora/sass/partials/design/blocks/views/_project-project_main.scss"
-			],
-			[
-				"projectpr",
-				"nmd_aurora/sass/partials/design/blocks/views/_project-project_images.scss"
 			]
 		],
 		"width": 0.0
@@ -1560,6 +1741,18 @@
 		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"",
+				"/Users/timw/git/project/abc.sublime-project"
+			],
+			[
+				"benz",
+				"/Users/timw/git/project/benznvidia.sublime-project"
+			],
+			[
+				"ben",
+				"/Users/timw/git/project/benznvidia.sublime-project"
+			],
 			[
 				"abc",
 				"/Users/timw/git/project/abc.sublime-project"
@@ -1578,10 +1771,6 @@
 			],
 			[
 				"RE",
-				"/Users/timwhitney/sublime/reconstruction-experts.sublime-project"
-			],
-			[
-				"",
 				"/Users/timwhitney/sublime/reconstruction-experts.sublime-project"
 			],
 			[

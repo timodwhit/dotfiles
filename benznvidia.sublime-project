@@ -3,7 +3,7 @@
 	[
 		{
 
-			"path": "~/vagrant/benznvidia/assets/benznvidia/current/profiles/benznvidia",
+			"path": "~/vagrant/benznvidia/assets/benznvidia/releases/20131008223042/profiles/benznvidia",
 			"folder_exclude_patterns":
 			[
 				".sass-cache",
@@ -13,7 +13,7 @@
 			]
 		},
 		{
-			"path": "~/vagrant/benznvidia/assets/benznvidia/current/profiles/benznvidia/themes/nmd_aurora",
+			"path": "~/vagrant/benznvidia/assets/benznvidia/releases/20131008223042/profiles/benznvidia/themes/nmd_aurora",
 			"folder_exclude_patterns":
 			[
 				".sass-cache",
@@ -21,7 +21,7 @@
 			]
 		},
 		{
-			"path": "~/vagrant/benznvidia/assets/benznvidia/current/profiles/benznvidia/modules"
+			"path": "~/vagrant/benznvidia/assets/benznvidia/releases/20131008223042/profiles/benznvidia/modules"
 		}
 	]
 }

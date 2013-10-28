@@ -3,7 +3,7 @@
   [
     {
       "path": "~/vagrant/abc/assets/abc/current/profiles/abc",
-      "folder_exclude_patterns": [".sass-cache", "stylesheets", "themes", "modules", "migrations"],
+      "folder_exclude_patterns": [".sass-cache", "stylesheets", "themes", "modules"],
       "file_exlude_patterns":["*.scssc", "*.css", ".gitignore", ".editorconfig", "Gemfile", "Gemfile.lock"]
     },
     {

@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"hook_form",
+				"hook_form_alter	hook_form_alter"
+			],
+			[
 				"$location",
 				"$location_items"
 			],
@@ -18,10 +26,6 @@
 			[
 				"theme_l",
 				"theme_links	theme_links"
-			],
-			[
-				"margin-",
-				"margin-top"
 			],
 			[
 				"text",
@@ -327,6 +331,86 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/Users/timw/vagrant/re/assets/re/current/sites/all/modules/custom/local_globals/javascripts/jquery.front_sub_slider.js",
+			"settings":
+			{
+				"buffer_size": 1411,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/timw/vagrant/re/assets/re/current/sites/all/modules/custom/local_globals/templates/supersized.tpl.php",
+			"settings":
+			{
+				"buffer_size": 2539,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/timw/vagrant/re/assets/re/current/sites/all/themes/nmd_aurora/sass/partials/design/blocks/local_globals/_main_nav.scss",
+			"settings":
+			{
+				"buffer_size": 5002,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/timw/vagrant/re/assets/re/current/sites/all/modules/custom/local_globals/templates/footer.tpl.php",
+			"settings":
+			{
+				"buffer_size": 606,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/timw/vagrant/re/assets/re/current/sites/all/themes/nmd_aurora/sass/partials/global/_tabs.scss",
+			"settings":
+			{
+				"buffer_size": 229,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/timw/vagrant/re/assets/re/current/sites/all/themes/nmd_aurora/template.php",
+			"settings":
+			{
+				"buffer_size": 8811,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/timw/vagrant/re/assets/re/current/sites/all/themes/nmd_aurora/sass/partials/global/_forms.scss",
+			"settings":
+			{
+				"buffer_size": 2126,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/timw/vagrant/re/assets/re/current/sites/all/themes/nmd_aurora/sass/partials/design/blocks/local_globals/_front_footer.scss",
+			"settings":
+			{
+				"buffer_size": 2007,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/timw/vagrant/re/assets/re/current/sites/all/themes/nmd_aurora/sass/partials/global/_fonts.scss",
+			"settings":
+			{
+				"buffer_size": 2433,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/timw/vagrant/re/assets/re/current/sites/all/themes/nmd_aurora/sass/partials/design/blocks/views/_project-project_specs.scss",
+			"settings":
+			{
+				"buffer_size": 403,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -384,6 +468,8 @@
 	},
 	"file_history":
 	[
+		"/Users/timw/vagrant/re/assets/re/current/sites/all/modules/custom/local_globals/templates/front_footer.tpl.php",
+		"/Users/timw/vagrant/re/assets/re/current/sites/all/modules/custom/local_globals/javascripts/jquery.main-nav.js",
 		"/Users/timwhitney/sites/drupal-lamp/assets/re/current/sites/all/modules/contrib/entityform/entityform_type.admin.inc",
 		"/Users/timw/git/project/reconstruction-experts.sublime-project",
 		"/Users/timwhitney/sites/drupal-lamp/assets/re/current/sites/all/modules/contrib/entityform/entityform.admin.inc",
@@ -509,9 +595,7 @@
 		"/Users/timwhitney/sites/drupal-lamp/assets/re/current/sites/all/modules/contrib/migrate/migrate.info",
 		"/Users/timwhitney/sites/drupal-lamp/assets/re/current/profiles/nmd/modules/contrib/field_collection/field_collection.info",
 		"/Users/timwhitney/sites/drupal-lamp/assets/re/current/profiles/nmd/example_data/projects/ProjectImageMigration.csv",
-		"/Users/timwhitney/sites/drupal-lamp/assets/re/current/profiles/nmd/modules/contrib/field_collection/field_collection.migrate.inc",
-		"/Users/timwhitney/sites/drupal-lamp/assets/re/current/profiles/nmd/modules/contrib/field_collection/field_colection.migrate.inc",
-		"/Users/timwhitney/sites/drupal-lamp/assets/re/current/profiles/nmd/example_data/images/categories"
+		"/Users/timwhitney/sites/drupal-lamp/assets/re/current/profiles/nmd/modules/contrib/field_collection/field_collection.migrate.inc"
 	],
 	"find":
 	{
@@ -532,6 +616,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"form_budget",
+			"field collection",
 			"_rubik_local_tasks",
 			"rubik",
 			"$news_items_nids",
@@ -657,9 +743,7 @@
 			"ervice",
 			"Class",
 			"$i",
-			"urn['categor",
-			"$return[$term_name]",
-			"$term_obj"
+			"urn['categor"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -677,8 +761,287 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/Users/timw/vagrant/re/assets/re/current/sites/all/modules/custom/local_globals/javascripts/jquery.front_sub_slider.js",
+					"settings":
+					{
+						"buffer_size": 1411,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								572,
+								546
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/timw/vagrant/re/assets/re/current/sites/all/modules/custom/local_globals/templates/supersized.tpl.php",
+					"settings":
+					{
+						"buffer_size": 2539,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								262,
+								167
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/timw/vagrant/re/assets/re/current/sites/all/themes/nmd_aurora/sass/partials/design/blocks/local_globals/_main_nav.scss",
+					"settings":
+					{
+						"buffer_size": 5002,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2187,
+								2187
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/timw/vagrant/re/assets/re/current/sites/all/modules/custom/local_globals/templates/footer.tpl.php",
+					"settings":
+					{
+						"buffer_size": 606,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								213,
+								213
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/timw/vagrant/re/assets/re/current/sites/all/themes/nmd_aurora/sass/partials/global/_tabs.scss",
+					"settings":
+					{
+						"buffer_size": 229,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								222,
+								222
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/timw/vagrant/re/assets/re/current/sites/all/themes/nmd_aurora/template.php",
+					"settings":
+					{
+						"buffer_size": 8811,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8266,
+								8266
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 211.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/timw/vagrant/re/assets/re/current/sites/all/themes/nmd_aurora/sass/partials/global/_forms.scss",
+					"settings":
+					{
+						"buffer_size": 2126,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3,
+								3
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 17.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Users/timw/vagrant/re/assets/re/current/sites/all/themes/nmd_aurora/sass/partials/design/blocks/local_globals/_front_footer.scss",
+					"settings":
+					{
+						"buffer_size": 2007,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1955,
+								1955
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/Users/timw/vagrant/re/assets/re/current/sites/all/themes/nmd_aurora/sass/partials/global/_fonts.scss",
+					"settings":
+					{
+						"buffer_size": 2433,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1394,
+								1394
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 158.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/Users/timw/vagrant/re/assets/re/current/sites/all/themes/nmd_aurora/sass/partials/design/blocks/views/_project-project_specs.scss",
+					"settings":
+					{
+						"buffer_size": 403,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								400,
+								400
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -728,12 +1091,32 @@
 		"selected_items":
 		[
 			[
-				"entt",
-				"modules/contrib/entityform/entityform_type.admin.inc"
+				"projectspecs",
+				"nmd_aurora/sass/partials/design/blocks/views/_project-project_specs.scss"
+			],
+			[
+				"font",
+				"nmd_aurora/sass/partials/global/_fonts.scss"
+			],
+			[
+				"frontscss",
+				"nmd_aurora/sass/partials/design/blocks/local_globals/_front_footer.scss"
+			],
+			[
+				"footer",
+				"modules/custom/local_globals/templates/front_footer.tpl.php"
 			],
 			[
 				"main",
 				"nmd_aurora/sass/partials/design/blocks/local_globals/_main_nav.scss"
+			],
+			[
+				"mainjs",
+				"modules/custom/local_globals/javascripts/jquery.main-nav.js"
+			],
+			[
+				"entt",
+				"modules/contrib/entityform/entityform_type.admin.inc"
 			],
 			[
 				"formscss",
@@ -808,20 +1191,12 @@
 				"nmd_aurora/sass/partials/design/blocks/views/categories_cate/_header.scss"
 			],
 			[
-				"footer",
-				"nmd_aurora/sass/partials/design/blocks/local_globals/_footer.scss"
-			],
-			[
 				"inline",
 				"nmd_aurora/javascript/jquery.inline_labels.js"
 			],
 			[
 				"foter",
 				"nmd_aurora/sass/partials/design/blocks/local_globals/_footer.scss"
-			],
-			[
-				"font",
-				"nmd_aurora/sass/partials/global/_fonts.scss"
 			],
 			[
 				"frontsubsli",
@@ -950,10 +1325,6 @@
 			[
 				"maintpl",
 				"modules/custom/local_globals/templates/main_nav.tpl.php"
-			],
-			[
-				"mainjs",
-				"modules/custom/local_globals/javascripts/jquery.main-nav.js"
 			],
 			[
 				"tabs",
@@ -1132,11 +1503,27 @@
 		"selected_items":
 		[
 			[
-				"be",
-				"/Users/timwhitney/sublime/benzadobe.sublime-project"
+				"abc",
+				"/Users/timw/git/project/abc.sublime-project"
+			],
+			[
+				"re",
+				"/Users/timw/git/project/reconstruction-experts.sublime-project"
+			],
+			[
+				"ab",
+				"/Users/timw/git/project/abc.sublime-project"
 			],
 			[
 				"",
+				"/Users/timw/git/project/benznvidia.sublime-project"
+			],
+			[
+				"ad",
+				"/Users/timw/git/project/benzadobe.sublime-project"
+			],
+			[
+				"be",
 				"/Users/timwhitney/sublime/benzadobe.sublime-project"
 			],
 			[
