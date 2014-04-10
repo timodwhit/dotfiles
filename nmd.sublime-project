@@ -1,8 +1,28 @@
 {
-	"folders":
-	[
-		{
-			"path": "/Users/timwhitney/sites/drupal-lamp/assets/nmd/current"
-		}
-	]
+  "folders":
+  [
+    {
+      "path": "~/web",
+      "folder_exclude_patterns": ["newmedia"],
+      "file_exclude_patterns": [".DS_Store", "._*"]
+    },
+    {
+      "path": "~/web/profiles/newmedia",
+      "folder_exclude_patterns": [".sass-cache", "stylesheets", "themes", "modules"],
+      "file_exclude_patterns":["._*","*.scssc", "*.css", ".gitignore", ".editorconfig", "Gemfile", "Gemfile.lock"]
+    },
+    {
+      "path": "~/web/profiles/newmedia/modules"
+    },
+    {
+      "path": "~/web/profiles/newmedia/themes/bare",
+      "folder_exclude_patterns": [".sass-cache", "stylesheets"],
+      "file_exclude_patterns":["*.scssc", "*.css", ".gitignore", ".editorconfig", "Gemfile", "Gemfile.lock"]
+    },
+    {
+      "path": "~/web/profiles/newmedia/themes/newmedia_bare",
+      "folder_exclude_patterns": [".sass-cache", "css", "node_modules"],
+      "file_exclude_patterns":["*.scssc", "*.css", ".gitignore", ".editorconfig", "Gemfile", "Gemfile.lock"]
+    }
+  ]
 }

@@ -1,0 +1,75 @@
+{
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				".DS_Store",
+				"._*"
+			],
+			"folder_exclude_patterns":
+			[
+				"newmedia"
+			],
+			"path": "/srv/www/postnet/current"
+		},
+		{
+			"file_exclude_patterns":
+			[
+				"._*",
+				"*.scssc",
+				"*.css",
+				".gitignore",
+				".editorconfig",
+				"Gemfile",
+				"Gemfile.lock"
+			],
+			"folder_exclude_patterns":
+			[
+				".sass-cache",
+				"stylesheets",
+				"themes",
+				"modules"
+			],
+			"path": "/srv/www/postnet/current/profiles/postnet"
+		},
+		{
+			"path": "/srv/www/postnet/current/profiles/postnet/modules"
+		},
+		{
+			"file_exclude_patterns":
+			[
+				"*.scssc",
+				"*.css",
+				".gitignore",
+				".editorconfig",
+				"Gemfile",
+				"Gemfile.lock"
+			],
+			"folder_exclude_patterns":
+			[
+				".sass-cache",
+				"stylesheets"
+			],
+			"path": "/srv/www/postnet/current/profiles/postnet/themes/bare"
+		},
+		{
+			"file_exclude_patterns":
+			[
+				"*.scssc",
+				"*.css",
+				".gitignore",
+				".editorconfig",
+				"Gemfile",
+				"Gemfile.lock"
+			],
+			"folder_exclude_patterns":
+			[
+				".sass-cache",
+				"css",
+				"node_modules"
+			],
+			"path": "/srv/www/postnet/current/profiles/postnet/themes/custom/postnet_bare"
+		}
+	]
+}

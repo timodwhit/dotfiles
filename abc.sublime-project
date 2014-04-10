@@ -2,15 +2,15 @@
   "folders":
   [
     {
-      "path": "~/vagrant/abc/assets/abc/current/profiles/abc",
+      "path": "~/vagrant/abc/assets/abc/current/docroot/profiles/abc",
       "folder_exclude_patterns": [".sass-cache", "stylesheets", "themes", "modules"],
       "file_exlude_patterns":["*.scssc", "*.css", ".gitignore", ".editorconfig", "Gemfile", "Gemfile.lock"]
     },
     {
-      "path": "~/vagrant/abc/assets/abc/current/profiles/abc/modules"
+      "path": "~/vagrant/abc/assets/abc/current/docroot/profiles/abc/modules"
     },
     {
-      "path": "~/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora",
+      "path": "~/vagrant/abc/assets/abc/current/docroot/profiles/abc/themes/nmd_aurora",
       "folder_exclude_patterns": [".sass-cache", "stylesheets"],
       "file_exlude_patterns":["*.scssc", "*.css", ".gitignore", ".editorconfig", "Gemfile", "Gemfile.lock"]
     }

@@ -4,8 +4,120 @@
 		"selected_items":
 		[
 			[
+				"font-",
+				"font-size"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"footer",
+				"menu-footer-links"
+			],
+			[
+				"border-",
+				"border-radius"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"togg",
+				"toggleClass"
+			],
+			[
+				"padding-",
+				"padding-top"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"drupal_get",
+				"drupal_get_path	drupal_get_path"
+			],
+			[
+				"them",
+				"theme_image	theme_image"
+			],
+			[
+				"recipe",
+				"recipe_center"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"view",
+				"views-row"
+			],
+			[
+				"hover",
+				"hoverClass"
+			],
+			[
+				"last",
+				"lastPage"
+			],
+			[
+				"fon",
+				"font-style"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"form",
+				"format_date	format_date"
+			],
+			[
 				"background",
-				"background_img"
+				"background-size"
+			],
+			[
+				"variabl",
+				"variables"
+			],
+			[
+				"str",
+				"strtotime"
+			],
+			[
+				"back",
+				"background-position"
+			],
+			[
+				"drupal_set_",
+				"drupal_set_message	drupal_set_message"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"bac",
+				"background-size"
+			],
+			[
+				"load",
+				"load_the_entity"
+			],
+			[
+				"tc",
+				"tc_tab"
 			],
 			[
 				"img",
@@ -18,10 +130,6 @@
 			[
 				"tab-cont",
 				"tab-container"
-			],
-			[
-				"border",
-				"border-top"
 			],
 			[
 				"content",
@@ -58,10 +166,6 @@
 			[
 				"tc_",
 				"tc_body"
-			],
-			[
-				"tc",
-				"tc"
 			],
 			[
 				"tc_body",
@@ -134,10 +238,6 @@
 			[
 				"main-menu",
 				"main-menu-level-1"
-			],
-			[
-				"text",
-				"text-decoration"
 			],
 			[
 				"subnav_menu",
@@ -268,10 +368,6 @@
 				"subtitle_field"
 			],
 			[
-				"drupal_get",
-				"drupal_get_title	drupal_get_title"
-			],
-			[
 				"basic_page",
 				"basic_page_content"
 			],
@@ -298,14 +394,6 @@
 			[
 				"backgro",
 				"background-repeat"
-			],
-			[
-				"border-",
-				"border-bottom"
-			],
-			[
-				"text-",
-				"text-transform"
 			],
 			[
 				"backgr",
@@ -342,10 +430,6 @@
 			[
 				"paddi",
 				"padding-top"
-			],
-			[
-				"back",
-				"background"
 			],
 			[
 				"home",
@@ -392,14 +476,6 @@
 				"hook_preprocess	hook_preprocess"
 			],
 			[
-				"padding-",
-				"padding-bottom"
-			],
-			[
-				"font-",
-				"font-weight"
-			],
-			[
 				"table",
 				"table-cell"
 			],
@@ -438,159 +514,72 @@
 			[
 				"var",
 				"var_dump"
-			],
-			[
-				"variabl",
-				"variable_get	variable_get"
-			],
-			[
-				"local_gl",
-				"local_globals_block_titles"
-			],
-			[
-				"db_fe",
-				"db2_fetch_object"
-			],
-			[
-				"$search_",
-				"$search_menu_tree"
-			],
-			[
-				"margin-",
-				"margin-bottom"
-			],
-			[
-				"javascr",
-				"javascripts"
-			],
-			[
-				"hook_pr",
-				"hook_preprocess	hook_preprocess"
-			],
-			[
-				"no",
-				"no-repeat"
-			],
-			[
-				"po",
-				"position"
-			],
-			[
-				"$link",
-				"$link_image"
-			],
-			[
-				"$link_p",
-				"$link_pic"
-			],
-			[
-				"$link_pic_ur",
-				"$link_pic_url"
-			],
-			[
-				"$link_",
-				"$link_entities"
-			],
-			[
-				"border-bo",
-				"border-bottom"
-			],
-			[
-				"$loa",
-				"$loaded_entity"
-			],
-			[
-				"$fc",
-				"$fc_id"
-			],
-			[
-				"$sli",
-				"$slide_images"
-			],
-			[
-				"$slide",
-				"$slide_uri"
-			],
-			[
-				"$location",
-				"$location_items"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/design/block/abc_blocks/_abc_blocks.scss",
+			"file": "/Users/timw/vagrant/abc/assets/abc/current/docroot/profiles/abc/themes/nmd_aurora/sass/partials/design/block/abc_blocks/_header_desktop.scss",
 			"settings":
 			{
-				"buffer_size": 371,
+				"buffer_size": 7305,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/base/_mixins.scss",
+			"contents": "Searching 110 files for \".mobile-content-banner\"\n\n0 matches across 0 files\n\n\nSearching 110 files for \".mobile-content\"\n\n0 matches across 0 files\n\n\nSearching 110 files for \".mobile-banner-content\"\n\n/Users/timw/vagrant/abc/assets/abc/current/docroot/profiles/abc/themes/nmd_aurora/sass/partials/design/views/_view_banner_slider.scss:\n  159        }\n  160      }\n  161:    .mobile-banner-content{\n  162       min-height: 140px;\n  163       .title{\n  ...\n  212    //Overriding Title colors for mobile\n  213      .section-fp &{\n  214:       .mobile-banner-content{\n  215          .title{\n  216            a{\n  ...\n  221    }\n  222    .section-hp &{\n  223:     .mobile-banner-content{\n  224        .title{\n  225          a{\n\n3 matches in 1 file\n",
 			"settings":
 			{
-				"buffer_size": 2684,
+				"buffer_size": 739,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "/Users/timw/vagrant/abc/assets/abc/current/docroot/profiles/abc/themes/nmd_aurora/sass/partials/design/views/_view_banner_slider.scss",
+			"settings":
+			{
+				"buffer_size": 5297,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/template.php",
+			"file": "/Users/timw/vagrant/abc/assets/abc/current/docroot/profiles/abc/themes/nmd_aurora/sass/partials/layout/_layout.scss",
 			"settings":
 			{
-				"buffer_size": 6090,
+				"buffer_size": 2850,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "(function($){\n  Drupal.behaviors.basicPageTabbed = {\n    attach: function (context, settings) {\n      function showHideDTabContent(hashVar){\n        $('.tc-banner').show();\n        $('.tc-learn-more').hide();\n        $('.active .field-name-field-tab-background-img').show();\n        //Set the active tab using the hash provided.\n        //Based on the tab type label the parent elements to allow for design\n        //changes using css\n        function addRemoveType(selector) {\n          if( $(selector).hasClass('bannered')) {\n            $('.tc-container,.tab-container').addClass('bannered');\n          } else {\n            $('.tc-container, .tab-container').addClass('background');\n          }\n        }\n        if(hashVar){\n          var hashVar = window.location.hash,\n              subHash     = hashVar.substring(3,0),\n              bgField     = '.field-name-field-tab-background-img img';\n          //This allow us to have unique links without possibility of overriding,\n          //with the fallback to nice menu links\n          if (subHash == '#tc') {\n            var trueHash = hashVar.substring(4);\n          } else {\n            var trueHash = hashVar.substring(1);\n          }\n          //Hide all tab content and remove any active classes\n          $('.tab-content').hide().removeClass('active  lm-active');\n          $('.tab-container .tab').removeClass('active');\n          //Add active classes to the active tab and the tab content\n          $('#tc-' + trueHash).addClass('active').show();\n          $('#tb-' + trueHash).addClass('active');\n          //Add Classes to tab type\n          $('.tc-container, .tab-container').removeClass('bannered background');\n\n          addRemoveType('#tc-' + trueHash);\n        } else {\n          //Run on initial Load if no hash is present, this will set the first\n          //to show and active\n          $('.tab-content').hide();\n          $('.tab-container .tab').first().addClass('active');\n          var tc        = '.tc-container .tab-content',\n              firstTab  = $(tc).first();\n          firstTab.addClass('active').show();\n          addRemoveType('.tc-container .active');\n        }\n      }\n      if ($('body').hasClass('desktop')) {\n        //Grab the hashtag on initial load and set the active tab\n        var hashtag = window.location.hash;\n        showHideDTabContent(hashtag);\n        //On clicking a link to the tab show it.\n        $(window).on('hashchange', showHideDTabContent);\n        //Hide learn more content until learn more button is selected.\n        $('.learn-more').on('click', function(){\n          var contentAct = $(this).parent('.tab-content'),\n              banner = $('.active .tc-banner'),\n              conPar = $('.active .tc-learn-more');\n          $('.active').addClass('lm-active');\n          banner.hide();\n          conPar.show();\n          $('.active .field-name-field-tab-background-img').hide();\n          $('.tc-container,.tab-container').removeClass('bannered background');\n          $('.tc-container,.tab-container').addClass('bannered');\n        });\n      }\n      if ($('body').hasClass('mobile')) {\n        $('.tc-container').cycle('paused',{\n          height:'null'\n          after: function(el, next_el) {\n            $(next_el).addClass('active');\n          },\n          before: function(el) {\n            $(el).removeClass('active');\n          }\n        });\n        var tc_tab = $('.active.tab-content') \n\n      }\n    }\n  };\n})(jQuery);\n",
-			"file": "/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/custom/abc_blocks/js/jquery.tabbed.js",
-			"file_size": 3379,
-			"file_write_time": 1382964325000000,
+			"file": "/Users/timw/vagrant/abc/assets/abc/current/docroot/profiles/abc/themes/nmd_aurora/sass/partials/design/block/abc_blocks/_header_mobile.scss",
 			"settings":
 			{
-				"buffer_size": 3450,
+				"buffer_size": 2752,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/design/block/abc_blocks/_header_desktop.scss",
+			"contents": "",
+			"file": "/Users/timw/git/drupal-lamp/infrastructure/drupal_lamp.json",
+			"file_size": -1,
+			"file_write_time": -1,
 			"settings":
 			{
-				"buffer_size": 6622,
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/custom/abc_blocks/abc_blocks.theme.inc",
+			"contents": "",
+			"file": "/Users/timw/git/drupal-lamp/Berksfile",
+			"file_size": -1,
+			"file_write_time": -1,
 			"settings":
 			{
-				"buffer_size": 19226,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/design/block/abc_blocks/_basic_page_content.scss",
-			"settings":
-			{
-				"buffer_size": 3549,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/custom/abc_blocks/templates/basic_page_content.tpl.php",
-			"settings":
-			{
-				"buffer_size": 3824,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/design/block/abc_blocks/_basic_page_title.scss",
-			"settings":
-			{
-				"buffer_size": 1121,
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		}
@@ -662,7 +651,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 566.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -679,134 +668,134 @@
 	},
 	"file_history":
 	[
-		"/Users/timw/vagrant/abc/assets/abc/releases/20131027140627/profiles/abc/themes/nmd_aurora/template.php",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/custom/abc_blocks/templates/basic_page_title.tpl.php",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/layout/_basic_page.scss",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/js/jquery.main_nav.js",
-		"/Users/timw/vagrant/abc/assets/abc/releases/20131027140627/profiles/abc/themes/nmd_aurora/sass/partials/design/block/abc_blocks/_basic_page_content.scss",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/layout/_layout.scss",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/base/_variables.scss",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/design/block/abc_blocks/_basic_page_title.scss",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/custom/abc_blocks/abc_blocks.theme.inc",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/custom/abc_blocks/templates/basic_page_content.tpl.php",
-		"/Users/timw/vagrant/abc/assets/abc/releases/20131027140627/profiles/abc/themes/nmd_aurora/sass/partials/design/block/abc_blocks/_basic_page_title.scss",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/design/_global.scss",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/design/block/abc_blocks/_footer_desktop.scss",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/base/_fonts.scss",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/custom/abc_blocks/js/jquery.tabbed.js",
-		"/Users/timw/vagrant/abc/assets/abc/releases/20131026194944/profiles/abc/modules/custom/abc_blocks/abc_blocks.theme.inc",
-		"/Users/timw/vagrant/abc/assets/abc/releases/20131025223432/profiles/abc/modules/custom/abc_blocks/js/jquery.tabbed.js",
-		"/Users/timw/vagrant/abc/.drupal_lamp.json",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/features/abc_basic_page/abc_basic_page.features.field_base.inc",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/custom/abc_blocks/js/jquery.archive.js",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/features/abc_sections/abc_sections.module",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/custom/abc_blocks/templates/news_archive.tpl.php",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/custom/abc_blocks/abc_blocks.module",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/custom/abc_blocks/templates/blog_archive.tpl.php",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/base/_extendables.scss",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/custom/abc_blocks/templates/header_desktop.tpl.php",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/design/block/abc_blocks/_header_mobile.scss",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/design/block/abc_blocks/_main_menu_mobile.scss",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/custom/abc_blocks/templates/header_mobile.tpl.php",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/abc.info",
-		"/Users/timw/vagrant/abc/assets/abc/releases/20131023155432/profiles/abc/modules/custom/abc_blocks/templates/blog_archive.tpl.php",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/custom/abc_blocks/templates/main_menu_mobile.tpl.php",
-		"/Users/timw/vagrant/redrocks/Vagrantfile",
-		"/Users/timw/vagrant/abc/assets/abc/releases/20131022200955/profiles/abc/patches/drupal-menu_always_load_objects-1697570-5.patch",
-		"/.zshrc",
-		"/Users/timw/.zshrc",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/contrib/menu_attributes/menu_attributes.api.php",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/features/abc_menu/abc_menu.info",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/features/abc_menu/abc_menu.module",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/contrib/menu_attributes/menu_attributes.module",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/custom/abc_blocks/templates/subnav_menu_mobile_bottom.tpl.php",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/custom/abc_blocks/templates/subnav_menu_mobile_top.tpl.php",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/style.scss",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/design/block/abc_blocks/_footer_mobile.scss",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/styleguide/_buttons.scss",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/base/_mixins.scss",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/features/abc_basic_page/abc_basic_page.migrate.inc",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/features/abc_basic_page/migrations/pages.inc",
-		"/Users/timw/vagrant/re/.drupal_lamp.json",
-		"/Users/timw/vagrant/re/Vagrantfile",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/features/abc_basic_page/pagestabs.csv",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/templates/page.tpl.php",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/template.php",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/contrib/better_formats/better_formats.admin_defaults.inc",
+		"/Users/timw/git/drupal-lamp/infrastructure/drupal_lamp.json",
+		"/Users/timw/git/abc/docroot/profiles/abc/themes/nmd_aurora/stylesheets/style.css",
 		"/Users/timw/git/project/abc.sublime-project",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/custom/abc_context_conditions/abc_context_conditions.module",
-		"/Users/timw/git/abc/profiles/abc/themes/nmd_aurora/templates/page.tpl.php",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/abc.migrate.inc",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/features/abc_basic_page/pages.csv",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/features/abc_basic_page/abc_basic_page.info",
-		"/Users/timw/Library/Application Support/Sublime Text 2/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
-		"/Users/timw/vagrant/abc/assets/abc/releases/20131011153329/profiles/abc/modules/features/abc_basic_page/migrations/pages.inc",
-		"/Users/timw/vagrant/riverside/Vagrantfile",
-		"/Users/timw/vagrant/riverside/.drupal_lamp.json",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/features/abc_basic_page/=abc_basic_page.migrate.inc",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/features/abc_basic_page/migrations/abc_basic_page.migrate.inc",
-		"/Users/timw/Library/Application Support/Sublime Text 2/Packages/User/PHP/net-empty-tert.sublime-snippet",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/custom/abc_blocks/templates/subnav_menu_desktop.tpl.php",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/custom/abc_blocks/templates/basic_page_menu_desktop.tpl.php",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/custom/abc_blocks/templates/basic_page_menu_mobile.tpl.php",
-		"/Users/timw/vagrant/abc/assets/abc/releases/20131007175339/profiles/abc/themes/nmd_aurora/.gitignore",
+		"/Users/timw/vagrant/abc/assets/abc/current/docroot/profiles/abc/themes/nmd_aurora/sass/partials/design/block/abc_blocks/_header_title.scss",
+		"/Users/timw/vagrant/abc/assets/abc/current/docroot/profiles/abc/modules/features/abc_newsletter_signup_forms/abc_newsletter_signup_forms.module",
+		"/Users/timw/Desktop/abc.TODO",
+		"/Users/timw/vagrant/abc/assets/abc/current/docroot/profiles/abc/themes/nmd_aurora/js/jquery.main_nav.js",
+		"/Users/timw/vagrant/abc/assets/abc/current/docroot/profiles/abc/themes/nmd_aurora/sass/partials/design/block/_abc_sitemap.scss",
+		"/Users/timw/vagrant/abc/assets/abc/current/docroot/profiles/abc/themes/nmd_aurora/sass/partials/design/block/abc_blocks/_subnav-menu-desktop.scss",
+		"/Users/timw/vagrant/abc/assets/abc/current/docroot/profiles/abc/themes/nmd_aurora/sass/partials/base/_variables.scss",
+		"/Users/timw/vagrant/abc/assets/abc/current/docroot/profiles/abc/themes/nmd_aurora/sass/partials/design/block/abc_blocks/basic_page_content/_tabbed.scss",
+		"/Users/timw/vagrant/abc/assets/abc/current/docroot/profiles/abc/modules/custom/abc_blocks/js/jquery.tabbed_mobile.js",
+		"/Users/timw/vagrant/abc/assets/abc/current/docroot/profiles/abc/modules/custom/abc_blocks/js/jquery.tabbed.js",
+		"/Users/timw/vagrant/abc/assets/abc/current/docroot/profiles/abc/modules/custom/abc_blocks/templates/basic_page_content.tpl.php",
+		"/Users/timw/vagrant/abc/assets/abc/current/docroot/profiles/abc/modules/custom/abc_blocks/abc_blocks.theme.inc",
+		"/Users/timw/vagrant/abc/assets/abc/current/docroot/profiles/abc/themes/nmd_aurora/sass/partials/base/_mixins.scss",
+		"/Users/timw/vagrant/abc/assets/abc/current/docroot/profiles/abc/themes/nmd_aurora/sass/partials/layout/_layout.scss",
+		"/Users/timw/.zshrc",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/design/block/abc_blocks/basic_page_content/_tabbed.scss",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/custom/abc_blocks/abc_blocks.theme.inc",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/template.php",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/styleguide/comments/_fivestar.scss",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/styleguide/comments/_comment_form.scss",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/design/views/snack/_snack_center.scss",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/custom/abc_blocks/js/jquery.tabbed.js",
+		"/Users/timw/vagrant/abc/.drupal_lamp.json",
+		"/Users/timw/vagrant/abc/Vagrantfile",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/features/abc_recipe/abc_recipe.theme.inc",
+		"/Users/timw/vagrant/abc/assets/abc/releases/20131113132922/profiles/abc/themes/nmd_aurora/sass/partials/design/views/recipe/_recipe_detail.scss",
+		"/Users/timw/vagrant/abc/assets/abc/releases/20131113132922/profiles/abc/themes/nmd_aurora/sass/partials/design/block/abc_blocks/_subnav-menu-mobile.scss",
+		"/Users/timw/vagrant/abc/assets/abc/releases/20131113132922/profiles/abc/themes/nmd_aurora/sass/partials/design/block/abc_blocks/_subnav-menu-desktop.scss",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/base/_mixins.scss",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/design/block/abc_blocks/_header_desktop.scss",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/fonts/icomoon.svg",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/fonts/icomoon.dev.svg",
+		"/Volumes/HDD/timw/Downloads/icomoon/fonts/icomoon.svg",
+		"/Volumes/HDD/timw/Downloads/icomoon/fonts/icomoon.ttf",
+		"/Volumes/HDD/timw/Downloads/icomoon/fonts/icomoon.eot",
+		"/Volumes/HDD/timw/Downloads/icomoon/fonts/icomoon.woff",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/design/_buttons.scss",
 		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/custom/abc_blocks/templates/footer_mobile.tpl.php",
 		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/custom/abc_blocks/templates/footer_desktop.tpl.php",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/custom/abc_blocks/abc_blocks.admin.inc",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/design/regions/_footer.scss",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/design/regions/_header.scss",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/design/block/abc_blocks/_header_desktop.scss",
-		"/Users/timw/vagrant/abc/Vagrantfile",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/custom/abc_context_conditions/abc_context_conditions.info",
-		"/Users/timw/vagrant/abc/assets/abc/releases/20131004174001/.gitignore",
-		"/Users/timw/vagrant/abc/assets/abc/releases/20131001204905/profiles/abc/themes/nmd_aurora/sass/partials/design/regions/_header.scss",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/design/regions/_regions.scss",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/nmd_aurora.info",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/design/block/abc_blocks/_main_menu.scss",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/design/regions/_flyout_mobile.scss",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/design/block/abc_blocks/main_menu.scss",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/design/block/abc_blocks/_footer_mobile.scss",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/base/_extendables.scss",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/custom/abc_blocks/templates/basic_page_content.tpl.php",
+		"/Users/timw/git/abc/profiles/abc/modules/custom/abc_blocks/js/jquery.tabbed.js",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/design/block/_globalusage_block.scss",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/design/_global.scss",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/custom/abc_globalusage/abc_globalusage.info",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/layout/_layout.scss",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/js/jquery.main_nav.js",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/styleguide/_forms.scss",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/design/block/abc_newsletter_signup_forms/_abc_newsletter_signup_forms.scss",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/features/abc_recipe/abc_recipe.views_default.inc",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/features/abc_newsletter_signup_forms/abc_newsletter_signup_forms.module",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/features/abc_newsletter_signup_forms/abc_newsletter_signup_forms.info",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/features/abc_newsletters/abc_newsletters.module",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/print.scss",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/features/abc_sections/abc_sections.module",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/design/block/abc_blocks/_header_title.scss",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/features/abc_snack_center/abc_snack_center.views_default.inc",
+		"/Users/timw/vagrant/abc/assets/abc/releases/20131107174756/profiles/abc/themes/nmd_aurora/sass/partials/design/views/recipe/_recipe_detail_mobile.scss",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/design/views/recipe/_recipe_detail_mobile.scss",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/design/views/_twitter.scss",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/design/views/_newsletter-sign-up.scss",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/styleguide/_buttons.scss",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/features/abc_newsletter_signup_forms/abc_newsletter_signup_forms.features.inc",
+		"/Users/timw/Library/Application Support/Sublime Text 2/Packages/PlainTasks/messages/Tutorial.todo",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/base/_fonts.scss",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/templates/block.tpl.php",
+		"/Users/timw/vagrant/abc/assets/abc/releases/20131107040527/profiles/abc/themes/nmd_aurora/sass/partials/design/block/abc_newsletter_signup_forms/abc_newsletter_signup_forms.scss",
 		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/design/block/_block.scss",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/design/block/abc_blocks/_header_desktop",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/design/regions/_floyout_mobile.scss",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/design/block/abc_blocks/_abc_blocks.scss",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/custom/abc_blocks/abc_blocks.info",
-		"/Users/timw/vagrant/abc/assets/abc/releases/20131001202801/profiles/abc/abc.info",
-		"/Users/timw/vagrant/abc/assets/abc/releases/20131001202801/profiles/abc/modules/features/abc_sections/abc_sections.module",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/features/abc_sections/migrations/sections.inc",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/features/abc_developer/abc_developer.info",
-		"/Users/timw/vagrant/soha/assets/soha/abc_blocks.module",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/features/abc_mobile/abc_mobile.module",
-		"/Users/timw/vagrant/soha/.drupal_lamp.json",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/custom/abc_context_conditions/plugins/abc_context_conditions_mobile.inc",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/features/abc_sections/sections.csv",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/styleguide/_type.scss",
-		"/Users/timw/vagrant/abc/assets/abc/releases/20130930170642/profiles/abc/modules/custom/abc_context_conditions/abc_context_conditions.module",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/custom/abc_context_conditions/plugins/abc_context_condition_is_mobile.inc",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/design/block/abc_newsletter_signup_forms/abc_newsletter_signup_forms.scss",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/templates/menu-block-wrapper.tpl.php",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/templates/page.tpl.php",
+		"/Users/timw/vagrant/abc/assets/abc/releases/20131106224315/profiles/abc/modules/features/abc_recipe/abc_recipe.theme.inc",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/features/abc_recipe/templates/snack_swag.tpl.php",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/features/abc_recipe/templates/recipe_center.tpl.php",
+		"/Users/timw/git/abc/profiles/abc/themes/nmd_aurora/sass/partials/design/block/_block.scss",
+		"/Users/timw/vagrant/abc/assets/abc/releases/20131105235002/profiles/abc/themes/nmd_aurora/sass/partials/design/block/_abc_recipe_blocks.scss",
+		"/Users/timw/vagrant/abc/assets/abc/releases/20131105235002/profiles/abc/modules/features/abc_recipe/templates/snack_center.tpl.php",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/features/abc_recipe/abc_recipe.features.user_permission.inc",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/custom/abc_blocks/abc_blocks.module",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/design/views/_views.scss",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/design/block/_abc_sitemap.scss",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/custom/abc_sitemap/abc_sitemap.module",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/custom/abc_globalusage/templates/globalusage.tpl.php",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/design/views/search_filters/_search_filters.scss",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/js/jquery.inline_labels.js",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/config.rb",
+		"/Users/timw/Desktop/abc_snack_center.view",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/design/views/snack/_snack.scss",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/styleguide/_style-guide.scss",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/templates/comment/comment-wrapper.tpl.php",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/templates/comment/comment.tpl.php",
 		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/custom/abc_context_conditions/plugins/abc_context_conditions_section.inc",
-		"/Users/timw/vagrant/abc/assets/abc/releases/20130930170642/profiles/abc/modules/custom/abc_context_conditions/plugins/abc_context_condition_is_mobile.inc",
-		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/custom/abc_context_conditions/plugins/abc_context_condition_section.inc",
-		"/Volumes/HDD/timw/Documents/todos/093013.todo",
-		"/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/sass/partials/base/_variables.scss",
-		"/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/sass/partials/design/blocks/local_globals/_main_menu.scss",
-		"/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/sass/partials/design/node/_news-page.scss",
-		"/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/sass/partials/styleguide/_tables.scss",
-		"/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/releases/20130911230005/profiles/benzadobe/modules/features/benz_video_page/benz_video_page.module",
-		"/Users/timwhitney/.gitconfig",
-		"/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/modules/custom/rwd_table/rwd_table.module",
-		"/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/modules/custom/rwd_table/rwd_table.info",
-		"/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/templates/html.tpl.php",
-		"/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/template.php",
-		"/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/modules/features/benzadobe_search/benzadobe_search.module",
-		"/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/sass/partials/styleguide/_list.scss",
-		"/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/modules/custom/local_globals/javascripts/jquery.main-nav.js",
-		"/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/js/respond.js",
-		"/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/sass/partials/design/blocks/_system_main.scss",
-		"/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/modules/contrib/webform/templates/webform-submission-navigation.tpl.php",
-		"/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/sass/partials/styleguide/_text.scss",
-		"/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/sass/partials/design/blocks/local_globals/_home_highlights.scss",
-		"/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/sass/partials/design/blocks/local_globals/_search_block.scss",
-		"/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/modules/custom/rwd_table/respond.js",
-		"/Users/timwhitney/.zshrc"
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/contrib/context/plugins/context_condition_context.inc",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/features/abc_recipe/widgets/abc/abc.css",
+		"/Users/timw/vagrant/abc/assets/abc/releases/20131103150547/profiles/abc/themes/nmd_aurora/sass/partials/styleguide/comments/_fivestar.scss",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/styleguide/comments/_comments_section.scss",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/styleguide/comments/_comments.scss",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/styleguide/_comment.scss",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/features/abc_recipe/abc_recipe.module",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/design/views/recipe/_recipe.scss",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/base/_variables.scss",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/features/abc_recipe/abc_recipe.context.inc",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/custom/abc_context_conditions/plugins/abc_context_conditions_mobile.inc",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/design/views/recipe/_recipe_detail.scss",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/design/views/recipe/_recipe_center.scss",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/custom/abc_blocks/templates/header_desktop.tpl.php",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/custom/abc_blocks/templates/header_title.tpl.php",
+		"/Users/timw/git/abc/profiles/abc/themes/nmd_aurora/sass/partials/design/views/_views.scss",
+		"/Users/timw/vagrant/abc/assets/abc/releases/20131101170447/profiles/abc/modules/features/abc_newsletters/abc_newsletters.info",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/features/abc_banner_slider/abc_banner_slider.context.inc",
+		"/Users/timw/vagrant/abc/assets/abc/releases/20131031012533/profiles/abc/modules/features/abc_recipe/abc_recipe.info",
+		"/Users/timw/vagrant/abc/assets/abc/releases/20131031012533/profiles/abc/abc.info",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/abc.info",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/features/abc_recipe/abc_recipe.info",
+		"/Users/timw/vagrant/abc/assets/abc/releases/20131031213909/profiles/abc/themes/nmd_aurora/sass/partials/layout/_layout.scss",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/features/abc_banner_slider/abc_banner_slider.info",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/design/block/abc_blocks/_basic_page_content.scss",
+		"/Users/timw/.bashrc",
+		"/Users/timw/git/abc/profiles/abc/modules/features/abc_recipe/abc_recipe.strongarm.inc",
+		"/Users/timw/git/abc/profiles/abc/modules/features/abc_recipe/abc_recipe.features.field_base.inc",
+		"/Users/timw/git/abc/profiles/abc/modules/features/abc_recipe/abc_recipe.features.field_instance.inc",
+		"/Users/timw/git/abc/profiles/abc/modules/features/abc_recipe/abc_recipe.info",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/design/block/abc_blocks/_basic_page_title.scss",
+		"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/design/block/abc_blocks/_abc_blocks.scss"
 	],
 	"find":
 	{
@@ -817,6 +806,9 @@
 		"height": 0.0,
 		"where_history":
 		[
+			"/Users/timw/vagrant/abc/assets/abc/current/docroot/profiles/abc/themes/nmd_aurora/sass/partials",
+			"<project>",
+			"/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/features",
 			"/Users/timwhitney/sites/drupal-lamp/assets/re/current/sites/all/modules/contrib/entityform",
 			"<project>",
 			"/Users/timwhitney/sites/drupal-lamp/assets/re/current/sites/all/modules/contrib/migrate/migrate_example"
@@ -827,6 +819,106 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".mobile-banner-content",
+			".mobile-content",
+			".mobile-content-banner",
+			".promise().done(function(){",
+			"slideToggle",
+			"100",
+			"300",
+			"toggle",
+			"fast",
+			"slideT",
+			"fadeToggle",
+			"'fast'",
+			"slideT",
+			"fade",
+			"nav",
+			"tab-content",
+			"DTab",
+			");\n",
+			"main_menu_mobile",
+			"abc/current/",
+			"#comments &,",
+			"<glyph unicode=\"&#xe00f;\" d=\"M287.040 645.824c0-59.84-48.512-108.352-108.352-108.352s-108.416 48.512-108.416 108.352c0 59.904 48.512 108.352 108.352 108.352s108.416-48.448 108.416-108.352M718.656 434.752c-26.752 29.12-59.648 55.744-97.6 77.888l-201.152-399.808c40.448-17.344 81.408-27.904 120.768-32l177.984 353.92zM272.64 215.616c26.688-29.12 59.648-55.68 97.6-77.888l201.152 399.872c-40.448 17.344-81.408 27.904-120.768 32l-177.984-353.984zM756.224 385.728l-153.792-305.856c79.744 6.016 146.176 41.344 177.024 102.592 30.848 61.312 19.52 135.744-23.232 203.264M756.224 385.728l-153.792-305.856c79.744 6.016 146.176 41.344 177.024 102.592 30.848 61.312 19.52 135.744-23.232 203.264M388.864 570.56c-79.68-6.080-146.176-41.344-177.024-102.592-30.784-61.312-19.52-135.68 23.232-203.328l153.792 305.92zM650.56 540.608c18.496-10.752 35.776-22.656 51.712-35.264 186.752 80.192 443.776 221.312 256.64 330.304-277.12 161.344-478.656-238.144-478.656-238.144 39.232-4.032 80.256-14.592 120.704-31.936M826.496 220.416c-1.6-21.632-7.104-42.496-16.96-62.080-12.288-24.512-30.4-44.736-52.544-60.672 37.504 4.928 147.84 14.016 182.272-41.6l-112.768 164.352zM186.688 818.816c-18.048 29.184-53.184 46.72-104.384 52.416-2.304 10.368-9.6 19.392-20.352 23.040-16.32 5.568-33.984-3.2-39.552-19.52-5.568-16.256 3.2-33.984 19.456-39.488s33.984 3.2 39.552 19.456c0.448 1.344 0.64 2.688 0.896 4.032 46.336-5.376 77.952-20.864 93.76-46.4 26.176-42.24 0.448-98.752 0.192-99.328l11.264-5.248c1.152 2.56 28.8 63.040-0.832 111.040\" />",
+			"<glyph unicode=\"&#xe00f;\"",
+			"<glyph unicode=\"&#xe00f;\" d=\"M287.040 645.824c0-59.84-48.512-108.352-108.352-108.352s-108.416 48.512-108.416 108.352c0 59.904 48.512 108.352 108.352 108.352s108.416-48.448 108.416-108.352M718.656 434.752c-26.752 29.12-59.648 55.744-97.6 77.888l-201.152-399.808c40.448-17.344 81.408-27.904 120.768-32l177.984 353.92zM272.64 215.616c26.688-29.12 59.648-55.68 97.6-77.888l201.152 399.872c-40.448 17.344-81.408 27.904-120.768 32l-177.984-353.984zM756.224 385.728l-153.792-305.856c79.744 6.016 146.176 41.344 177.024 102.592 30.848 61.312 19.52 135.744-23.232 203.264M756.224 385.728l-153.792-305.856c79.744 6.016 146.176 41.344 177.024 102.592 30.848 61.312 19.52 135.744-23.232 203.264M388.864 570.56c-79.68-6.080-146.176-41.344-177.024-102.592-30.784-61.312-19.52-135.68 23.232-203.328l153.792 305.92zM650.56 540.608c18.496-10.752 35.776-22.656 51.712-35.264 186.752 80.192 443.776 221.312 256.64 330.304-277.12 161.344-478.656-238.144-478.656-238.144 39.232-4.032 80.256-14.592 120.704-31.936M826.496 220.416c-1.6-21.632-7.104-42.496-16.96-62.080-12.288-24.512-30.4-44.736-52.544-60.672 37.504 4.928 147.84 14.016 182.272-41.6l-112.768 164.352zM186.688 818.816c-18.048 29.184-53.184 46.72-104.384 52.416-2.304 10.368-9.6 19.392-20.352 23.040-16.32 5.568-33.984-3.2-39.552-19.52-5.568-16.256 3.2-33.984 19.456-39.488s33.984 3.2 39.552 19.456c0.448 1.344 0.64 2.688 0.896 4.032 46.336-5.376 77.952-20.864 93.76-46.4 26.176-42.24 0.448-98.752 0.192-99.328l11.264-5.248c1.152 2.56 28.8 63.040-0.832 111.040\" />",
+			"right",
+			"learn_more",
+			"scss",
+			"global",
+			"div",
+			"class=\"link\"",
+			"span",
+			"recipe_image",
+			"recipe_square",
+			"recipe_image",
+			"ecipe_square",
+			"ecipe_sqare",
+			"ecipe_image",
+			"recipe_square",
+			"recipe_image",
+			"mobile",
+			"theme_image",
+			"input",
+			"hp",
+			"h2",
+			"gray-btn",
+			"lasses",
+			"image_style",
+			"ext",
+			"recipe_center",
+			"snack_center",
+			"recipe_center",
+			"ecipe_center",
+			"recipe_center",
+			"ecipe_center",
+			"Text",
+			"snack_center",
+			"abc_recipe_recipe_center",
+			"recipe_center",
+			"snack_center",
+			"recipe_center",
+			"_submit_",
+			"submit",
+			"custom_block",
+			"main",
+			":'';\n",
+			"entity_type",
+			"abc_blocks_subnav_menu_tree",
+			"div",
+			"$('input[type=\"text\"], input[type=\"email\"], textarea')",
+			"input[type=\"text\"],",
+			"input",
+			".snack-main.pager ",
+			".snack-main-pager",
+			"context-sitewide",
+			"5px",
+			"1",
+			"30px",
+			"h2",
+			"58.5",
+			"consumer",
+			"type",
+			"$name",
+			"name",
+			"dpm",
+			"2px",
+			"75%",
+			"50%",
+			"22px 20px",
+			"22px 39px;",
+			"20px",
+			"#comment",
+			"star.png",
+			"url",
+			"div.fivestar-widget",
+			".fivestar-abc",
+			"basic",
+			"mymodule",
+			"load_the_entity()",
+			"nodeblock",
+			"main",
 			"'map'",
 			"map",
 			"['und']",
@@ -854,107 +946,7 @@
 			"bed_content",
 			"hash",
 			"type",
-			"tabbed_content",
-			"css_icon",
-			"background_content",
-			"image_map_content",
-			"blog",
-			"$v",
-			"$year",
-			"year",
-			"$k",
-			"$k ",
-			"data_field_",
-			"blog_date",
-			"_blog_date",
-			"easy_blog",
-			"asy_blog_date_value",
-			"easy_blog",
-			"rd",
-			"hash_field",
-			"css_icon",
-			"bed_content",
-			"bed_content_",
-			"$q",
-			"main_menu_top",
-			"subnav_menu",
-			"subnav_menu ",
-			"input'",
-			"name",
-			"_",
-			"validate",
-			"element_validate",
-			" {",
-			"&.",
-			":befo",
-			"24px",
-			"a:",
-			":bef",
-			"a:",
-			"before",
-			"o",
-			"be",
-			"icon-",
-			"a",
-			".social-menu li.",
-			"blue_h",
-			"mixin",
-			"#b20838",
-			"abc",
-			"div",
-			"field_main_image",
-			"main",
-			"ighlight",
-			"field_section_machine_name",
-			"false",
-			"desktop'",
-			"'desktop",
-			"return",
-			"field_get_items",
-			"image",
-			"pic",
-			"main",
-			"$tc_image",
-			"tc_image",
-			"link",
-			"block",
-			"field",
-			"eld",
-			"$tcfc_entity",
-			"answer",
-			"title",
-			"itle",
-			"field",
-			"ield)",
-			"this",
-			"data",
-			"basic_page",
-			"top",
-			"mobile",
-			"basic_page",
-			"op",
-			"mobile",
-			"asic_page_",
-			"basic_page",
-			"subtitle",
-			"itle",
-			"page_content",
-			"footer_desktop",
-			"none",
-			"red_con",
-			"slide",
-			"red_con",
-			"orange-f",
-			"blue_hp",
-			"$red_con",
-			"header",
-			"-toggle",
-			"ackground",
-			"copyright",
-			"social",
-			"$main_menu_top",
-			"menu_main_menu",
-			"top"
+			"tabbed_content"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -978,48 +970,25 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/design/block/abc_blocks/_abc_blocks.scss",
+					"file": "/Users/timw/vagrant/abc/assets/abc/current/docroot/profiles/abc/themes/nmd_aurora/sass/partials/design/block/abc_blocks/_header_desktop.scss",
 					"settings":
 					{
-						"buffer_size": 371,
+						"buffer_size": 7305,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								310,
-								310
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/base/_mixins.scss",
-					"settings":
-					{
-						"buffer_size": 2684,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2438,
-								2438
-							]
-						],
-						"settings":
-						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
 							"syntax": "Packages/SCSS/SCSS.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
@@ -1031,79 +1000,143 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/template.php",
+					"buffer": 1,
 					"settings":
 					{
-						"buffer_size": 6090,
+						"buffer_size": 739,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										370,
+										392
+									],
+									[
+										536,
+										558
+									],
+									[
+										655,
+										677
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								147,
+								147
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"incomplete_sync": null,
+							"output_tag": 3,
+							"remote_loading": false,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"synced": false,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 107.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/timw/vagrant/abc/assets/abc/current/docroot/profiles/abc/themes/nmd_aurora/sass/partials/design/views/_view_banner_slider.scss",
+					"settings":
+					{
+						"buffer_size": 5297,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1862,
-								1862
+								3512,
+								3512
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2090.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/custom/abc_blocks/js/jquery.tabbed.js",
+					"file": "/Users/timw/vagrant/abc/assets/abc/current/docroot/profiles/abc/themes/nmd_aurora/sass/partials/layout/_layout.scss",
 					"settings":
 					{
-						"buffer_size": 3450,
+						"buffer_size": 2850,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3175,
-								3175
+								866,
+								1190
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 425.0,
+						"translation.y": 358.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/design/block/abc_blocks/_header_desktop.scss",
+					"file": "/Users/timw/vagrant/abc/assets/abc/current/docroot/profiles/abc/themes/nmd_aurora/sass/partials/design/block/abc_blocks/_header_mobile.scss",
 					"settings":
 					{
-						"buffer_size": 6622,
+						"buffer_size": 2752,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1140,
-								1140
+								333,
+								293
 							]
 						],
 						"settings":
 						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
 							"syntax": "Packages/SCSS/SCSS.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
@@ -1116,79 +1149,26 @@
 				},
 				{
 					"buffer": 5,
-					"file": "/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/custom/abc_blocks/abc_blocks.theme.inc",
+					"file": "/Users/timw/git/drupal-lamp/infrastructure/drupal_lamp.json",
 					"settings":
 					{
-						"buffer_size": 19226,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9497,
-								9497
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3705.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/design/block/abc_blocks/_basic_page_content.scss",
-					"settings":
-					{
-						"buffer_size": 3549,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1889,
-								1889
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 677.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/modules/custom/abc_blocks/templates/basic_page_content.tpl.php",
-					"settings":
-					{
-						"buffer_size": 3824,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3035,
-								3035
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -1199,26 +1179,27 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "/Users/timw/vagrant/abc/assets/abc/current/profiles/abc/themes/nmd_aurora/sass/partials/design/block/abc_blocks/_basic_page_title.scss",
+					"buffer": 6,
+					"file": "/Users/timw/git/drupal-lamp/Berksfile",
 					"settings":
 					{
-						"buffer_size": 1121,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								624,
-								624
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1264,6 +1245,10 @@
 	{
 		"height": 94.0
 	},
+	"output.sftp":
+	{
+		"height": 100.0
+	},
 	"replace":
 	{
 		"height": 0.0
@@ -1274,6 +1259,234 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"lay_",
+				"nmd_aurora/sass/partials/layout/_layout.scss"
+			],
+			[
+				"headertitl",
+				"nmd_aurora/sass/partials/design/block/abc_blocks/_header_title.scss"
+			],
+			[
+				"jque",
+				"nmd_aurora/js/jquery.main_nav.js"
+			],
+			[
+				"variabescs",
+				"nmd_aurora/sass/partials/base/_variables.scss"
+			],
+			[
+				"tabbe",
+				"nmd_aurora/sass/partials/design/block/abc_blocks/basic_page_content/_tabbed.scss"
+			],
+			[
+				"mixins",
+				"nmd_aurora/sass/partials/base/_mixins.scss"
+			],
+			[
+				"tabbed",
+				"nmd_aurora/sass/partials/design/block/abc_blocks/basic_page_content/_tabbed.scss"
+			],
+			[
+				"template",
+				"nmd_aurora/template.php"
+			],
+			[
+				"fivescss",
+				"nmd_aurora/sass/partials/styleguide/comments/_fivestar.scss"
+			],
+			[
+				"commentscss",
+				"nmd_aurora/sass/partials/styleguide/comments/_comment_form.scss"
+			],
+			[
+				"snack_center.scs",
+				"nmd_aurora/sass/partials/design/views/snack/_snack_center.scss"
+			],
+			[
+				"header",
+				"nmd_aurora/sass/partials/design/block/abc_blocks/_header_desktop.scss"
+			],
+			[
+				"abc_block",
+				"modules/custom/abc_blocks/abc_blocks.theme.inc"
+			],
+			[
+				"but",
+				"nmd_aurora/sass/partials/design/_buttons.scss"
+			],
+			[
+				"mixin",
+				"nmd_aurora/sass/partials/base/_mixins.scss"
+			],
+			[
+				"footermo",
+				"nmd_aurora/sass/partials/design/block/abc_blocks/_footer_mobile.scss"
+			],
+			[
+				"abcthem",
+				"modules/custom/abc_blocks/abc_blocks.theme.inc"
+			],
+			[
+				"footer",
+				"modules/custom/abc_blocks/templates/footer_desktop.tpl.php"
+			],
+			[
+				"basic_age",
+				"modules/custom/abc_blocks/templates/basic_page_content.tpl.php"
+			],
+			[
+				"abc_bl",
+				"modules/custom/abc_blocks/abc_blocks.theme.inc"
+			],
+			[
+				"gloab",
+				"nmd_aurora/sass/partials/design/block/_globalusage_block.scss"
+			],
+			[
+				"global",
+				"nmd_aurora/sass/partials/design/_global.scss"
+			],
+			[
+				"layout",
+				"nmd_aurora/sass/partials/layout/_layout.scss"
+			],
+			[
+				"scssnews",
+				"nmd_aurora/sass/partials/design/block/abc_newsletter_signup_forms/_abc_newsletter_signup_forms.scss"
+			],
+			[
+				"abc_news",
+				"modules/features/abc_newsletter_signup_forms/abc_newsletter_signup_forms.module"
+			],
+			[
+				"quermain",
+				"nmd_aurora/js/jquery.main_nav.js"
+			],
+			[
+				"print",
+				"nmd_aurora/sass/print.scss"
+			],
+			[
+				"header_title",
+				"nmd_aurora/sass/partials/design/block/abc_blocks/_header_title.scss"
+			],
+			[
+				"abc_sec",
+				"modules/features/abc_sections/abc_sections.module"
+			],
+			[
+				"twit",
+				"nmd_aurora/sass/partials/design/views/_twitter.scss"
+			],
+			[
+				"newsscs",
+				"nmd_aurora/sass/partials/design/views/_newsletter-sign-up.scss"
+			],
+			[
+				"_form",
+				"nmd_aurora/sass/partials/styleguide/_forms.scss"
+			],
+			[
+				"form",
+				"nmd_aurora/sass/partials/styleguide/_forms.scss"
+			],
+			[
+				"font",
+				"nmd_aurora/sass/partials/base/_fonts.scss"
+			],
+			[
+				"abc_newlse",
+				"modules/features/abc_newsletter_signup_forms/abc_newsletter_signup_forms.module"
+			],
+			[
+				"page.t",
+				"nmd_aurora/templates/page.tpl.php"
+			],
+			[
+				"abcblock",
+				"modules/custom/abc_blocks/abc_blocks.theme.inc"
+			],
+			[
+				"button",
+				"nmd_aurora/sass/partials/design/_buttons.scss"
+			],
+			[
+				"tem",
+				"nmd_aurora/template.php"
+			],
+			[
+				"abcbk",
+				"modules/custom/abc_blocks/abc_blocks.theme.inc"
+			],
+			[
+				"gloabl",
+				"nmd_aurora/sass/partials/design/block/_globalusage_block.scss"
+			],
+			[
+				"globalscs",
+				"nmd_aurora/sass/partials/design/_global.scss"
+			],
+			[
+				"_forms",
+				"nmd_aurora/sass/partials/styleguide/_forms.scss"
+			],
+			[
+				"main",
+				"nmd_aurora/js/jquery.main_nav.js"
+			],
+			[
+				"confi",
+				"nmd_aurora/config.rb"
+			],
+			[
+				"forms",
+				"nmd_aurora/sass/partials/styleguide/_forms.scss"
+			],
+			[
+				"commentscs",
+				"nmd_aurora/sass/partials/styleguide/_comment.scss"
+			],
+			[
+				"condext",
+				"modules/contrib/context/plugins/context_condition_context.inc"
+			],
+			[
+				"la",
+				"nmd_aurora/sass/partials/layout/_layout.scss"
+			],
+			[
+				"abc_bloc",
+				"modules/custom/abc_blocks/abc_blocks.theme.inc"
+			],
+			[
+				"headerti",
+				"modules/custom/abc_blocks/templates/header_title.tpl.php"
+			],
+			[
+				"head",
+				"modules/custom/abc_blocks/templates/header_desktop.tpl.php"
+			],
+			[
+				"variablesscs",
+				"nmd_aurora/sass/partials/base/_variables.scss"
+			],
+			[
+				"abc.inf",
+				"abc/abc.info"
+			],
+			[
+				"abc_rec",
+				"modules/features/abc_recipe/abc_recipe.info"
+			],
+			[
+				"templ",
+				"nmd_aurora/template.php"
+			],
+			[
+				"page.tpl",
+				"nmd_aurora/templates/page.tpl.php"
+			],
 			[
 				"basictite",
 				"nmd_aurora/sass/partials/design/block/abc_blocks/_basic_page_title.scss"
@@ -1295,36 +1508,12 @@
 				"modules/custom/abc_blocks/abc_blocks.theme.inc"
 			],
 			[
-				"main",
-				"nmd_aurora/js/jquery.main_nav.js"
-			],
-			[
 				"abcblockthe",
 				"modules/custom/abc_blocks/abc_blocks.theme.inc"
 			],
 			[
-				"templ",
-				"nmd_aurora/template.php"
-			],
-			[
-				"header",
-				"nmd_aurora/sass/partials/design/block/abc_blocks/_header_desktop.scss"
-			],
-			[
-				"tabbed",
-				"modules/custom/abc_blocks/js/jquery.tabbed.js"
-			],
-			[
 				"varisscs",
 				"nmd_aurora/sass/partials/base/_variables.scss"
-			],
-			[
-				"abc_sec",
-				"modules/features/abc_sections/abc_sections.module"
-			],
-			[
-				"abc_block",
-				"modules/custom/abc_blocks/abc_blocks.module"
 			],
 			[
 				"main_na",
@@ -1337,10 +1526,6 @@
 			[
 				"menu",
 				"modules/contrib/menu_attributes/menu_attributes.module"
-			],
-			[
-				"mixin",
-				"nmd_aurora/sass/partials/base/_mixins.scss"
 			],
 			[
 				"abcbasic",
@@ -1363,16 +1548,8 @@
 				"nmd_aurora/templates/page.tpl.php"
 			],
 			[
-				"template",
-				"nmd_aurora/template.php"
-			],
-			[
 				"abcblco",
 				"modules/custom/abc_blocks/abc_blocks.theme.inc"
-			],
-			[
-				"footer",
-				"modules/custom/abc_blocks/templates/footer_desktop.tpl.php"
 			],
 			[
 				"heaer",
@@ -1383,16 +1560,8 @@
 				"nmd_aurora/sass/partials/base/_variables.scss"
 			],
 			[
-				"layout",
-				"nmd_aurora/sass/partials/layout/_layout.scss"
-			],
-			[
 				"blocks",
 				"modules/custom/abc_blocks/abc_blocks.theme.inc"
-			],
-			[
-				"head",
-				"nmd_aurora/sass/partials/design/block/abc_blocks/_header_mobile.scss"
 			],
 			[
 				"headermob",
@@ -1435,10 +1604,6 @@
 				"nmd_aurora/sass/partials/design/block/abc_blocks/_footer_desktop.scss"
 			],
 			[
-				"font",
-				"nmd_aurora/sass/partials/base/_fonts.scss"
-			],
-			[
 				"nmd",
 				"nmd_aurora/nmd_aurora.info"
 			],
@@ -1452,10 +1617,6 @@
 			],
 			[
 				"t",
-				"nmd_aurora/template.php"
-			],
-			[
-				"tem",
 				"nmd_aurora/template.php"
 			],
 			[
@@ -1609,182 +1770,6 @@
 			[
 				"text",
 				"nmd_aurora/sass/partials/styleguide/_text.scss"
-			],
-			[
-				"variab",
-				"nmd_aurora/sass/partials/base/_variables.scss"
-			],
-			[
-				"varia",
-				"nmd_aurora/sass/partials/base/_variables.scss"
-			],
-			[
-				"tempat",
-				"nmd_aurora/template.php"
-			],
-			[
-				"searh",
-				"nmd_aurora/sass/partials/design/blocks/local_globals/_search_block.scss"
-			],
-			[
-				"highligh",
-				"modules/custom/local_globals/templates/home_highlights.tpl.php"
-			],
-			[
-				"form",
-				"nmd_aurora/sass/partials/styleguide/_forms.scss"
-			],
-			[
-				"searchscs",
-				"nmd_aurora/sass/partials/design/blocks/local_globals/_search_block.scss"
-			],
-			[
-				"lau",
-				"nmd_aurora/sass/partials/layout/_layout.scss"
-			],
-			[
-				"homel",
-				"modules/custom/local_globals/templates/home_highlights.tpl.php"
-			],
-			[
-				"high",
-				"nmd_aurora/sass/partials/design/blocks/local_globals/_home_highlights.scss"
-			],
-			[
-				"type",
-				"nmd_aurora/sass/partials/styleguide/_type.scss"
-			],
-			[
-				"home",
-				"modules/custom/local_globals/templates/home_highlights.tpl.php"
-			],
-			[
-				"pagess",
-				"nmd_aurora/sass/partials/design/blocks/local_globals/_page_title.scss"
-			],
-			[
-				"vari",
-				"nmd_aurora/sass/partials/base/_variables.scss"
-			],
-			[
-				"benz",
-				"benzadobe/benzadobe.info"
-			],
-			[
-				"page_ti",
-				"modules/custom/local_globals/templates/page_title.tpl.php"
-			],
-			[
-				"confi",
-				"modules/custom/local_globals/config.inc"
-			],
-			[
-				"super",
-				"modules/custom/local_globals/templates/supersized.tpl.php"
-			],
-			[
-				"bloc",
-				"modules/custom/local_globals/block_helpers.inc"
-			],
-			[
-				"ben",
-				"profiles/benzadobe/benzadobe.info"
-			],
-			[
-				"_layout",
-				"nmd_aurora/sass/partials/layout/_layout.scss"
-			],
-			[
-				"logo",
-				"nmd_aurora/sass/partials/design/blocks/local_globals/_logo_title_header.scss"
-			],
-			[
-				"before",
-				"modules/custom/local_globals/templates/before_slider.tpl.php"
-			],
-			[
-				"front",
-				"modules/custom/local_globals/templates/front_footer.tpl.php"
-			],
-			[
-				"_font",
-				"nmd_aurora/sass/partials/global/_fonts.scss"
-			],
-			[
-				"frontscs",
-				"nmd_aurora/sass/partials/design/blocks/local_globals/_front_footer.scss"
-			],
-			[
-				"beforescs",
-				"nmd_aurora/sass/partials/design/blocks/local_globals/_before_slider.scss"
-			],
-			[
-				"inline",
-				"nmd_aurora/javascript/jquery.inline_labels.js"
-			],
-			[
-				"foter",
-				"nmd_aurora/sass/partials/design/blocks/local_globals/_footer.scss"
-			],
-			[
-				"frontsubsli",
-				"nmd_aurora/sass/partials/design/blocks/local_globals/_front_sub_slider.scss"
-			],
-			[
-				"front_sub",
-				"modules/custom/local_globals/templates/front_sub_slider.tpl.php"
-			],
-			[
-				"cong",
-				"modules/custom/local_globals/config.inc"
-			],
-			[
-				"supers",
-				"nmd_aurora/sass/partials/design/blocks/local_globals/_supersized.scss"
-			],
-			[
-				"_layou",
-				"nmd_aurora/sass/partials/layout/_layout.scss"
-			],
-			[
-				"frontfoot",
-				"modules/custom/local_globals/templates/front_footer.tpl.php"
-			],
-			[
-				"superscs",
-				"nmd_aurora/sass/partials/design/blocks/local_globals/_supersized.scss"
-			],
-			[
-				"jsl",
-				"modules/custom/local_globals/javascripts/jquery.front_sub_slider.js"
-			],
-			[
-				"button",
-				"nmd_aurora/sass/partials/global/_buttons.scss"
-			],
-			[
-				"aggre",
-				"nmd_aurora/sass/partials/design/blocks/views/_aggregate.scss"
-			],
-			[
-				"fontscss",
-				"nmd_aurora/sass/partials/global/_fonts.scss"
-			],
-			[
-				"info",
-				"nmd/nmd.info"
-			],
-			[
-				"servicescss",
-				"nmd_aurora/sass/partials/design/blocks/local_globals/_services_projects_slideshow.scss"
-			],
-			[
-				"con",
-				"modules/custom/local_globals/config.inc"
-			],
-			[
-				"servicetpl",
-				"modules/custom/local_globals/templates/services_projects_slideshow.tpl.php"
 			]
 		],
 		"width": 0.0
@@ -1841,6 +1826,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 328.0,
+	"side_bar_width": 294.0,
 	"status_bar_visible": true
 }

@@ -456,93 +456,21 @@
 	"buffers":
 	[
 		{
+			"contents": " <?php\n\n/**\n * Implements hook_node_view_alter().\n *\n * @param $build\n */\nfunction nmd_aurora_node_view_alter(&$build) {\n  // I didn't feel like the module weight was the right way to set the order\n  // of the links: https://drupal.org/node/910570\n  if (isset($build['links'])) {\n    // The links will be ordered as defined in the $weight array followed\n    // by any other links\n    $weights = array('print_mail', 'print_html', 'print_pdf');\n    foreach ($weights AS $weight => $link_key) {\n      $build['links'][$link_key]['#weight'] = $weight+100*-1;\n    }\n    // This sorting would be better off in a preprocessor for links\n    uasort($build['links'], 'element_sort');\n  }\n\n  // For videos we need links to be in between elements and not rendered by\n  // the template. So we copy it here and weight it accordinly\n  if ($build['#node']->type == 'video_page') {\n    $build['xlinks'] = $build['links'];\n    $build['xlinks']['#weight'] = 9;\n    unset($build['links']);\n  }\n\n  // For any nodes that have children menu entries, hide the share links\n  if (db_query(\"SELECT COUNT(menu_links.mlid) FROM {menu_links} WHERE menu_links.link_path = :path AND menu_links.has_children = :children\", array(':path' => 'node/' . $build['#node']->nid, ':children' => 1))->fetchField()) {\n    // Remove the link to email\n    unset($build['links']['print_mail']);\n    // Remove the link to print\n    unset($build['links']['print_html']);\n    // Remove the link to save pdf\n    unset($build['links']['print_pdf']);\n  }\n}\n\n/**\n * Override or insert variables into the maintenance page template.\n *\n * @param $vars\n *   An array of variables to pass to the theme template.\n * @param $hook\n *   The name of the template being rendered (\"maintenance_page\" in this case.)\n */\nfunction nmd_aurora_preprocess_maintenance_page(&$vars, $hook) {\n  // When a variable is manipulated or added in preprocess_html or\n  // preprocess_page, that same work is probably needed for the maintenance page\n  // as well, so we can just re-use those functions to do that work here.\n  // nmd_aurora_preprocess_html($variables, $hook);\n  // nmd_aurora_preprocess_page($variables, $hook);\n\n  // This preprocessor will also be used if the db is inactive. To ensure your\n  // theme is used, add the following line to your settings.php file:\n  // $conf['maintenance_theme'] = 'nmd_aurora';\n  // Also, check $vars['db_is_active'] before doing any db queries.\n}\n\n/**\n * Implements hook_modernizr_load_alter().\n *\n * @return\n *   An array to be output as yepnope testObjects.\n */\nfunction nmd_aurora_modernizr_load_alter(&$load) {\n\n  // We will check for touch events, and if we do load the hammer.js script.\n  $load[] = array(\n    'test' => 'Modernizr.touch',\n    'yep'  => array('/' . drupal_get_path('theme', 'nmd_aurora') . '/javascripts/hammer.js'),\n  );\n\n  return $load;\n}\n\n/**\n * Implements hook_preprocess_html()\n *\n * @param $vars\n *   An array of variables to pass to the theme template.\n * @param $hook\n *   The name of the template being rendered (\"html\" in this case.)\n */\nfunction nmd_aurora_preprocess_html(&$vars) {\n  drupal_add_js(drupal_get_path('module', 'local_globals') . '/javascripts/jquery.main-nav.js');\n  drupal_add_js(drupal_get_path('theme','nmd_aurora') . '/js/respond.js');\n}\n\n/**\n * Override or insert variables into the page template.\n *\n * @param $vars\n *   An array of variables to pass to the theme template.\n * @param $hook\n *   The name of the template being rendered (\"page\" in this case.)\n */\n/* -- Delete this line if you want to use this function\nfunction nmd_aurora_preprocess_page(&$vars) {\n\n}\n\n/**\n * Override or insert variables into the region templates.\n *\n * @param $vars\n *   An array of variables to pass to the theme template.\n * @param $hook\n *   The name of the template being rendered (\"region\" in this case.)\n */\n/* -- Delete this line if you want to use this function\nfunction nmd_aurora_preprocess_region(&$vars, $hook) {\n\n}\n// */\n\n/**\n * Override or insert variables into the block templates.\n *\n * @param $vars\n *   An array of variables to pass to the theme template.\n * @param $hook\n *   The name of the template being rendered (\"block\" in this case.)\n */\n/* -- Delete this line if you want to use this function\nfunction nmd_aurora_preprocess_block(&$vars, $hook) {\n\n}\n// */\n\n/**\n * Override or insert variables into the entity template.\n *\n * @param $vars\n *   An array of variables to pass to the theme template.\n * @param $hook\n *   The name of the template being rendered (\"entity\" in this case.)\n */\n/* -- Delete this line if you want to use this function\nfunction nmd_aurora_preprocess_entity(&$vars, $hook) {\n\n}\n// */\n\n/**\n * Override or insert variables into the node template.\n *\n * @param $vars\n *   An array of variables to pass to the theme template.\n * @param $hook\n *   The name of the template being rendered (\"node\" in this case.)\n */\n/* -- Delete this line if you want to use this function\nfunction nmd_aurora_preprocess_node(&$vars, $hook) {\n  $node = $vars['node'];\n}\n// */\n\n/**\n * Override or insert variables into the field template.\n *\n * @param $vars\n *   An array of variables to pass to the theme template.\n * @param $hook\n *   The name of the template being rendered (\"field\" in this case.)\n */\n/* -- Delete this line if you want to use this function\nfunction nmd_aurora_preprocess_field(&$vars, $hook) {\n\n}\n// */\n\n/**\n * Override or insert variables into the comment template.\n *\n * @param $vars\n *   An array of variables to pass to the theme template.\n * @param $hook\n *   The name of the template being rendered (\"comment\" in this case.)\n */\n/* -- Delete this line if you want to use this function\nfunction nmd_aurora_preprocess_comment(&$vars, $hook) {\n  $comment = $vars['comment'];\n}\n// */\n\n/**\n * Override or insert variables into the views template.\n *\n * @param $vars\n *   An array of variables to pass to the theme template.\n */\n/* -- Delete this line if you want to use this function\nfunction nmd_aurora_preprocess_views_view(&$vars) {\n  $view = $vars['view'];\n}\n// */\n\n\n/**\n * Override or insert css on the site.\n *\n * @param $css\n *   An array of all CSS items being requested on the page.\n */\n/* -- Delete this line if you want to use this function\nfunction nmd_aurora_css_alter(&$css) {\n\n}\n// */\n\n/**\n * Override or insert javascript on the site.\n *\n * @param $js\n *   An array of all JavaScript being presented on the page.\n */\n/* -- Delete this line if you want to use this function\nfunction nmd_aurora_js_alter(&$js) {\n\n}\n// */\n/**\n * theme_menu_link()\n * @param array $variables [description]\n */\nfunction nmd_aurora_menu_link(array $variables) {\n  $element = $variables['element'];\n  //add class for li of mlid\n  $element['#attributes']['class'][] = 'menu-' . $element['#original_link']['mlid'];\n  $element['#attributes']['class'][] = 'level-' . $element['#original_link']['depth'];\n  //add class for a\n  $element['#localized_options']['attributes']['class'][] = 'menu-' . $element['#original_link']['mlid'];\n\n  $variables['element'] = $element;\n  return theme_menu_link($variables);\n}\n\n/**\n * Implements hook_form_FORM_ID_alter().\n */\nfunction nmd_aurora_form_search_block_form_alter(&$form, &$form_state, $form_id) {\n  // By default, place \"Search\" in the search box\n  $form['search_block_form']['#default_value'] = 'Search';\n  // We'll use javascript to remove this on focus\n  drupal_add_js(drupal_get_path('theme', 'nmd_aurora') . '/js/nmd_aurora_search.js');\n}\n",
+			"file": "/Users/timw/vagrant/benzadobe/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/template.php",
+			"file_size": 7422,
+			"file_write_time": 1386007701000000,
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 7423,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "benzadobe.sublime-project",
+			"file": "/Users/timw/vagrant/benzadobe/assets/benzadobe/current/profiles/benzadobe/modules/custom/local_globals/javascripts/jquery.main-nav.js",
 			"settings":
 			{
-				"buffer_size": 688,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "",
-			"file": "/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/template.php",
-			"file_size": -1,
-			"file_write_time": -1,
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "",
-			"file": "/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/js/respond.js",
-			"file_size": -1,
-			"file_write_time": -1,
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "#block-system-main{\n  background:white;\n  padding:25px 20px;\n  .front &{\n    background:none;\n  }\n\n  .page-node-1 &,\n  .page-node-2 &,\n  .page-node-3 &,\n  .page-node-4 &,\n  .page-node-5 &,\n  .page-node-6 &{\n    padding:0;\n  }\n}\n#main-region{\n  @include background(linear-gradient(top, #5C5C5C, #353535));\n}\n",
-			"file": "/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/sass/partials/design/blocks/_system_main.scss",
-			"file_size": 369,
-			"file_write_time": 1379021928000000,
-			"settings":
-			{
-				"buffer_size": 307,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/timw/vagrant/benzadobe/assets/benzadobe/current/profiles/benzadobe/migrations/basic_page_content.inc",
-			"settings":
-			{
-				"buffer_size": 2204,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/timw/vagrant/benzadobe/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/sass/partials/design/blocks/local_globals/_main_menu.scss",
-			"settings":
-			{
-				"buffer_size": 4882,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/timw/vagrant/benzadobe/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/js/nmd_aurora_search.js",
-			"settings":
-			{
-				"buffer_size": 416,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/timw/vagrant/benzadobe/assets/benzadobe/current/profiles/benzadobe/modules/custom/local_globals/local_globals.admin.inc",
-			"settings":
-			{
-				"buffer_size": 2568,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "w<?php\n\n/**\n * @file\n * Use the Migrate module to import example basic page content.\n *\n * We will use the Migrate API to insert this data into Drupal.\n */\n\n/**\n * Define the basic page migration.\n */\nclass HomePagesMigration extends NmdMigrationCSVNode {\n  const GROUP = 'nmd_production_content';\n  protected $csvFilename = 'home_pages.csv';\n  public $description = 'Inject example home page content.';\n  protected $nodeType = 'homepage';\n  protected $dependencies = array('BasicPages');\n\n  protected function columns() {\n    return array(\n      array('id', 'The source ID'),\n      array('title', 'Title'),\n      array('image', 'Image Name'),\n      array('publish', 'Publish'),\n    );\n  }\n\n  protected function mapFields() {\n    $this->addFieldMapping('uid')\n      ->defaultValue(1);\n    $this->addFieldMapping('title', 'title');\n    // Image Directory\n    $image_directory = self::dataDirectory() . '/files/home_page/';\n    $this->addFieldMapping('field_home_image', 'image');\n    $this->addFieldMapping('field_home_image:source_dir')\n      ->defaultValue($image_directory);\n    $this->addFieldMapping('status', 'publish')->defaultValue(1);\n  }\n\n  public function complete($node, stdClass $row) {\n    if(!empty($node)){\n      variable_set('site_frontpage','node/' . $node->nid);\n    }\n  }\n}\n\nclass TestHomePagesMigration extends HomePagesMigration {\n  const GROUP = 'nmd_testing_content';\n  const DATA_DIRECTORY = 'example_data';\n  protected $dependencies = array('TestBasicPages');\n}\n\nclass HomePagesHighlightMigration extends NmdMigrationCSVFieldCollection {\n  const GROUP = 'nmd_production_content';\n  /* CLIENT IS NOT PROVIDING THIS CONTENT */\n  const DATA_DIRECTORY = 'example_data';\n  public $description = 'Inject example home page content for the field collections.';\n  protected $dependencies = array('HomePages');\n  protected $fcFieldName = 'field_home_highlights';\n  protected $csvFilename = 'HomePagesHighlightMigration.csv';\n  protected function columns() {\n    return array(\n      array('id', 'The source ID'),\n      array('id_fk', 'The foreign ID'),\n      array('field_highlight_title', 'Title'),\n      array('field_highlight_subtitle', 'Subtitle'),\n    );\n  }\n\n  protected function mapFields() {\n    // Map the node's fields (destination, source)\n    $this->addFieldMapping('host_entity_id', 'id_fk')\n      ->sourceMigration('HomePages');\n    $this->addSimpleMappings(array(\n        'field_highlight_title',\n        'field_highlight_subtitle',\n      ));\n  }\n}\n\nclass TestHomePagesHighlightMigration extends HomePagesHighlightMigration {\n  const GROUP = 'nmd_testing_content';\n  const DATA_DIRECTORY = 'example_data';\n  protected $dependencies = array('TestHomePages');\n\n  protected function mapFields() {\n    parent::mapFields();\n    // Remap field with the Test migration\n    $this->removeFieldMapping('host_entity_id');\n    $this->addFieldMapping('host_entity_id', 'id_fk')\n      ->sourceMigration('TestHomePages');\n  }\n}\n\n",
-			"file": "/Users/timw/vagrant/benzadobe/assets/benzadobe/current/profiles/benzadobe/migrations/home_page_content.inc",
-			"file_size": 2942,
-			"file_write_time": 1380140596000000,
-			"settings":
-			{
-				"buffer_size": 2943,
+				"buffer_size": 2519,
 				"line_ending": "Unix"
 			}
 		}
@@ -603,6 +531,16 @@
 	},
 	"file_history":
 	[
+		"/Users/timw/vagrant/benzadobe/assets/benzadobe/current/profiles/benzadobe/modules/features/benz_video_page/benzadobe-video.js",
+		"/Users/timw/vagrant/benzadobe/assets/benzadobe/current/profiles/benzadobe/migrations/home_page_content.inc",
+		"/Users/timw/vagrant/benzadobe/assets/benzadobe/current/profiles/benzadobe/modules/custom/local_globals/local_globals.admin.inc",
+		"/Users/timw/vagrant/benzadobe/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/js/nmd_aurora_search.js",
+		"/Users/timw/vagrant/benzadobe/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/sass/partials/design/blocks/local_globals/_main_menu.scss",
+		"/Users/timw/vagrant/benzadobe/assets/benzadobe/current/profiles/benzadobe/migrations/basic_page_content.inc",
+		"/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/sass/partials/design/blocks/_system_main.scss",
+		"/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/js/respond.js",
+		"/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/template.php",
+		"/Users/timw/git/project/benzadobe.sublime-project",
 		"/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/sass/partials/layout/_layout.scss",
 		"/Users/timw/vagrant/benzadobe/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/templates/html.tpl.php",
 		"/Users/timw/vagrant/benzadobe/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/nmd_aurora.info",
@@ -616,12 +554,9 @@
 		"/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/modules/custom/rwd_table/rwd_table.module",
 		"/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/modules/custom/rwd_table/rwd_table.info",
 		"/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/templates/html.tpl.php",
-		"/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/template.php",
 		"/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/modules/features/benzadobe_search/benzadobe_search.module",
 		"/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/sass/partials/styleguide/_list.scss",
 		"/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/modules/custom/local_globals/javascripts/jquery.main-nav.js",
-		"/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/js/respond.js",
-		"/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/sass/partials/design/blocks/_system_main.scss",
 		"/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/modules/contrib/webform/templates/webform-submission-navigation.tpl.php",
 		"/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/sass/partials/styleguide/_text.scss",
 		"/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/sass/partials/design/blocks/local_globals/_home_highlights.scss",
@@ -723,14 +658,7 @@
 		"/Users/timwhitney/sites/drupal-lamp/assets/re/current/sites/all/themes/nmd_aurora/sass/partials/design/blocks/local_globals/_local_globals.scss",
 		"/Users/timwhitney/sites/drupal-lamp/assets/re/current/sites/all/modules/custom/local_globals/templates/front_sub_slider.tpl.php",
 		"/Users/timwhitney/sites/drupal-lamp/assets/re/current/sites/all/modules/custom/local_globals/templates/category_nav.tpl.php",
-		"/Users/timwhitney/sites/drupal-lamp/assets/re/current/sites/all/themes/nmd_aurora/sass/partials/design/blocks/local_globals/_supersized.scss",
-		"/Users/timwhitney/sites/drupal-lamp/assets/re/current/sites/all/modules/custom/local_globals/javascripts/jquery.main-nav.js",
-		"/Users/timwhitney/sites/drupal-lamp/assets/re/current/sites/all/modules/custom/local_globals/templates/main_nav.tpl.php",
-		"/Users/timwhitney/sites/drupal-lamp/assets/re/current/sites/all/themes/nmd_aurora/sass/partials/layout/_layout.scss",
-		"/etc/hosts",
-		"/Users/timwhitney/sites/drupal-lamp/assets/re/current/sites/all/themes/nmd_aurora/template.php",
-		"/Users/timwhitney/sites/drupal-lamp/assets/re/current/sites/all/modules/custom/local_globals/javascripts/jquery.front_sub_slider.js",
-		"/Users/timwhitney/sites/drupal-lamp/assets/re/current/sites/all/themes/nmd_aurora/sass/partials/base/_variables.scss"
+		"/Users/timwhitney/sites/drupal-lamp/assets/re/current/sites/all/themes/nmd_aurora/sass/partials/design/blocks/local_globals/_supersized.scss"
 	],
 	"find":
 	{
@@ -751,6 +679,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"this",
 			"float",
 			"3",
 			"height",
@@ -877,8 +806,7 @@
 			"Service",
 			"inc",
 			"+\n+/**\n+",
-			"\n+/**\n",
-			"prepare"
+			"\n+/**\n"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -896,75 +824,23 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "/Users/timw/vagrant/benzadobe/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/template.php",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 7423,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "benzadobe.sublime-project",
-					"settings":
-					{
-						"buffer_size": 688,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								687,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/template.php",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
+								1,
+								1
 							]
 						],
 						"settings":
@@ -974,135 +850,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2786.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/js/respond.js",
+					"buffer": 1,
+					"file": "/Users/timw/vagrant/benzadobe/assets/benzadobe/current/profiles/benzadobe/modules/custom/local_globals/javascripts/jquery.main-nav.js",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 2519,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/Users/timwhitney/sites/drupal-lamp/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/sass/partials/design/blocks/_system_main.scss",
-					"settings":
-					{
-						"buffer_size": 307,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								307,
-								307
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/Users/timw/vagrant/benzadobe/assets/benzadobe/current/profiles/benzadobe/migrations/basic_page_content.inc",
-					"settings":
-					{
-						"buffer_size": 2204,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "/Users/timw/vagrant/benzadobe/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/sass/partials/design/blocks/local_globals/_main_menu.scss",
-					"settings":
-					{
-						"buffer_size": 4882,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								472,
-								412
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "/Users/timw/vagrant/benzadobe/assets/benzadobe/current/profiles/benzadobe/themes/nmd_aurora/js/nmd_aurora_search.js",
-					"settings":
-					{
-						"buffer_size": 416,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								416,
-								0
+								2309,
+								2309
 							]
 						],
 						"settings":
@@ -1112,63 +878,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "/Users/timw/vagrant/benzadobe/assets/benzadobe/current/profiles/benzadobe/modules/custom/local_globals/local_globals.admin.inc",
-					"settings":
-					{
-						"buffer_size": 2568,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "/Users/timw/vagrant/benzadobe/assets/benzadobe/current/profiles/benzadobe/migrations/home_page_content.inc",
-					"settings":
-					{
-						"buffer_size": 2943,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1076,
-								858
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 115.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1792,6 +1502,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 274.0,
+	"side_bar_width": 98.0,
 	"status_bar_visible": true
 }

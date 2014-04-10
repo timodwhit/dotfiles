@@ -1,0 +1,1585 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"border",
+				"border-top"
+			],
+			[
+				"fot",
+				"font-weight"
+			],
+			[
+				"drupal_set_",
+				"drupal_set_message	drupal_set_message"
+			],
+			[
+				"border-",
+				"border-width"
+			],
+			[
+				"padding-",
+				"padding-bottom"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"drupal_get_",
+				"drupal_get_title	drupal_get_title"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"hook_module_",
+				"hook_module_implements_alter	hook_module_implements_alter"
+			],
+			[
+				"drupal_set",
+				"drupal_set_message	drupal_set_message"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"pager_totl",
+				"pager_total_items"
+			],
+			[
+				"pager_tot",
+				"pager_total_items"
+			],
+			[
+				"page",
+				"pager_limits"
+			],
+			[
+				"min-",
+				"min-height"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"tabl",
+				"table-cell"
+			],
+			[
+				"boo",
+				"bottom"
+			],
+			[
+				"hook_pr",
+				"hook_preprocess	hook_preprocess"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"list-st",
+				"list-style"
+			],
+			[
+				"texr",
+				"text-decoration"
+			],
+			[
+				"$location",
+				"$location_items"
+			],
+			[
+				"border-bott",
+				"border-bottom-right-radius"
+			],
+			[
+				"theme_l",
+				"theme_links	theme_links"
+			],
+			[
+				"margn",
+				"margin-bottom"
+			],
+			[
+				"$contact_name",
+				"$contact_name_field"
+			],
+			[
+				"$contact",
+				"$contact_fc"
+			],
+			[
+				"$conta",
+				"$contact_object"
+			],
+			[
+				"ent",
+				"entity_load"
+			],
+			[
+				"modul",
+				"module_invoke	module_invoke"
+			],
+			[
+				"$image",
+				"$image_alt"
+			],
+			[
+				"$r",
+				"$return"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"node_",
+				"node_save	node_save"
+			],
+			[
+				"field_view",
+				"field_view_reference"
+			],
+			[
+				"clas",
+				"classkit_method_add"
+			],
+			[
+				"$ter",
+				"$temp_directory"
+			],
+			[
+				"$company",
+				"$company_menu"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"estimate",
+				"estimate-form-dd"
+			],
+			[
+				"se",
+				"secondary-menu"
+			],
+			[
+				"$menu_",
+				"$menu_number"
+			],
+			[
+				"$main_",
+				"$main_menu"
+			],
+			[
+				"$main",
+				"$main_menu"
+			],
+			[
+				"$main_menu",
+				"$main_menu_tree"
+			],
+			[
+				"$rs_",
+				"$rs_menu"
+			],
+			[
+				"$menu",
+				"$menu"
+			],
+			[
+				"$subslide",
+				"$subslide_project"
+			],
+			[
+				"in",
+				"inside"
+			],
+			[
+				"st",
+				"list-style"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"$term_",
+				"$term_link"
+			],
+			[
+				"$service",
+				"$service_tree"
+			],
+			[
+				"taxonomy_vo",
+				"taxonomy_vocabulary_load	taxonomy_vocabulary_load"
+			],
+			[
+				"taxonomy_va",
+				"taxonomy_vocabulary_load	taxonomy_vocabulary_load"
+			],
+			[
+				"default",
+				"defaultValue"
+			],
+			[
+				"defa",
+				"defaultValue"
+			],
+			[
+				"source",
+				"source_dir"
+			],
+			[
+				"Cate",
+				"CategoryTags"
+			],
+			[
+				"Proe",
+				"Projects"
+			],
+			[
+				"subl",
+				"subslider_slides"
+			],
+			[
+				"$subslid",
+				"$sublide_slides"
+			],
+			[
+				"$show_field",
+				"$show_field_val"
+			],
+			[
+				"int",
+				"intval"
+			],
+			[
+				"$show_",
+				"$show_field_val"
+			],
+			[
+				"$cat",
+				"$category"
+			],
+			[
+				"$project_",
+				"$project_image_uri"
+			],
+			[
+				"$project_image",
+				"$project_image_field"
+			],
+			[
+				"$project",
+				"$project_image_field"
+			],
+			[
+				"$pro",
+				"$project"
+			],
+			[
+				"$proect",
+				"$project_node"
+			],
+			[
+				"$term",
+				"$term_name"
+			],
+			[
+				"$categ",
+				"$category_tree"
+			],
+			[
+				"taxonomy_voc",
+				"taxonomy_vocabulary_machine_name_load	taxonomy_vocabulary_machine_name_load"
+			],
+			[
+				"$slide",
+				"$slide_images"
+			],
+			[
+				"$before_i",
+				"$before_image_entity"
+			],
+			[
+				"theme_image",
+				"theme_image_style	theme_image_style"
+			],
+			[
+				"$bo",
+				"$before_image_entity"
+			],
+			[
+				"image_style",
+				"image_style_url	image_style_url"
+			],
+			[
+				"theme_",
+				"theme_image	theme_image"
+			],
+			[
+				"sS",
+				"sSlideImagesArray"
+			],
+			[
+				"sSl",
+				"sSlideImages"
+			],
+			[
+				"aSl",
+				"aSlideImageURI"
+			],
+			[
+				"image_st",
+				"image_style_url	image_style_url"
+			],
+			[
+				"list-s",
+				"list-style"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"is_nu",
+				"is_numeric"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"oEntity",
+				"oEntityWrapper"
+			],
+			[
+				"hook",
+				"hook_menu	hook_menu"
+			],
+			[
+				"de",
+				"dependencies"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/srv/www/jref/releases/20140311203305/profiles/jref/themes/jref_bare/css/print.css",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/styleguide/_addthis.scss",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "",
+			"file": "/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/design/fields/_field_image.scss",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/design/fields/_fields.scss",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/design/fields/_body.scss",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/design/blocks/views/page_blocks/_page_blocks.scss",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/design/blocks/system/_system.scss",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"twig",
+				"Set Syntax: HTML (Twig)"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"twi",
+				"Set Syntax: HTML (Twig)"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"remv",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			],
+			[
+				"syn",
+				"Set Syntax: PHP"
+			],
+			[
+				"syn php",
+				"Set Syntax: PHP"
+			],
+			[
+				"oac",
+				"Package Control: List Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 647.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/design/blocks/system/_products_body.scss",
+		"/srv/www/jref/releases/20140311203305/profiles/jref/themes/jref_bare/scss/design/blocks/views/events/_event_calendar.scss",
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/styleguide/_text.scss",
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/design/blocks/views/_views.scss",
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/design/blocks/views/event_calendar/_sidebar.scss",
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/design/blocks/views/event_calendar/_event_calendar.scss",
+		"/srv/www/jref/current/profiles/jref/modules/custom/jref_blocks/templates/jref_blocks_page_title.tpl.php",
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/layout/_layout.scss",
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/styleguide/_buttons.scss",
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/styleguide/_search.scss",
+		"/srv/www/jref/current/profiles/jref/migrations/example_data/pages.csv",
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/styleguide/_comment.scss",
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/template.php",
+		"/Volumes/HDD/timw/git/jref/modules/features/jref_event/jref_event.box.inc",
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/design/blocks/boxes/_newsletter_signup.scss",
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/config.rb",
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/design/blocks/search/_search.scss",
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/design/blocks/views/_aggregate.scss",
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/styleguide/_icons.scss",
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/styleguide/_styleguide.scss",
+		"/srv/www/jref/releases/20140311203305/profiles/jref/themes/jref_bare/scss/styleguide/_icons.scss",
+		"/Volumes/HDD/timw/git/jref/modules/features/jref_article/jref_article.features.filter.inc",
+		"/Volumes/HDD/timw/git/jref/modules/features/jref_global/jref_global.features.filter.inc",
+		"/srv/www/jref/releases/20140311203305/profiles/jref/themes/jref_bare/templates/comment/comment-wrapper.tpl.php",
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/base/_variables.scss",
+		"/srv/www/jref/releases/20140311203305/profiles/jref/themes/jref_bare/templates/comment/comment.tpl.php",
+		"/srv/www/jref/current/profiles/jref/drupal-org.make",
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/styleguide/_forms.scss",
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/templates/node/node.tpl.php",
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/styleguide/_addthis.scss",
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/js/jref.js",
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/design/regions/_header.scss",
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/design/regions/_content.scss",
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/styleguide/_menus.scss",
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/design/blocks/boxes/_boxes.scss",
+		"/srv/www/jref/releases/20140311203305/profiles/jref/themes/jref_bare/scss/design/blocks/boxes/_newsletter_signup.scss",
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/design/regions/_body.scss",
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/design/regions/_regions.scss",
+		"/srv/www/jref/current/profiles/jref/modules/custom/jref_blocks/jref_blocks.theme.inc",
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/design/blocks/views/homepage_slider/_homepage_slider.scss",
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/design/blocks/views/homepage/_embedded.scss",
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/design/blocks/views/homepage/_featured.scss",
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/design/blocks/views/homepage/_homepage.scss",
+		"/Users/timw/Library/Application Support/Sublime Text 2/Packages/User/sftp_servers/nmd",
+		"/srv/www/jref/current/profiles/jref/jref.info",
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/base/_mixins.scss",
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/design/regions/_footer.scss",
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/templates/system/page.tpl.php",
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/design/regions/_post_content.scss",
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/design/theme/_name_slogan.scss",
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/design/theme/_site_logo.scss",
+		"/srv/www/jref/current/profiles/jref/modules/custom/jref_blocks/jref_blocks.info",
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/design/blocks/_blocks.scss",
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/design/blocks/jref_blocks/_jref_blocks.scss",
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/design/blocks/jref_blocks/_page_title.scss",
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/design/blocks/jref_blocks/jref_blocks",
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/design/blocks/views/page_blocks/_page_blocks.scss",
+		"/srv/www/jref/current/profiles/jref/modules/custom/jref_blocks/jref_blocks.module",
+		"/srv/www/jref/releases/20140310165240/profiles/jref/.gitignore",
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/design/blocks/views/page_blocks/_block.scss",
+		"/srv/www/jref/current/profiles/jref/modules/custom/jref_blocks/jref_global.module",
+		"/srv/www/jref/releases/20140310165240/profiles/jref/themes/jref_bare/scss/design/blocks/views/_aggregate.scss",
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/design/blocks/system/_main_menu.scss",
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/styleguide/_link.scss",
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/design/_design.scss",
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/design/fields/_field_topics.scss",
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/design/fields/_fields.scss",
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/jref_bare.info",
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/design/regions/_pre_content.scss",
+		"/srv/www/jref/current/profiles/jref/modules/custom/jref_global/jref_global.module",
+		"/srv/www/jref/current/profiles/jref/modules/custom/jref_global/jref_global.info",
+		"/srv/www/jref/releases/20140310165240/profiles/jref/build-jref.make",
+		"/srv/www/jref/current/profiles/jref/migrations/example_data/home_pages.csv",
+		"/srv/www/jref/current/profiles/jref/migrations/includes/home_page_content.inc",
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/base/_libraries.scss",
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/base/_base.scss",
+		"/srv/www/jref/current/profiles/jref/jref.install",
+		"/srv/www/jref/current/profiles/jref/migrations/example_data/media.csv",
+		"/srv/www/jref/current/profiles/jref/modules/features/jref_product/jref_product.info",
+		"/srv/www/jref/current/profiles/jref/migrations/includes/media.inc",
+		"/srv/www/jref/current/profiles/jref/jref.migrate.inc",
+		"/srv/www/jref/current/profiles/jref/modules/features/jref_product/jref_product.context.inc",
+		"/srv/www/jref/current/profiles/jref/modules/features/jref_media/jref_media.context.inc",
+		"/srv/www/jref/current/profiles/jref/modules/features/jref_media/jref_media.info",
+		"/srv/www/jref/current/profiles/jref/modules/features/jref_article/jref_article.info",
+		"/srv/www/jref/current/profiles/jref/modules/features/jref_article/jref_article.context.inc",
+		"/srv/www/jref/current/profiles/jref/migrations/includes/users.inc",
+		"/Users/timw/Library/Application Support/Sublime Text 2/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/srv/www/jref/current/profiles/jref/migrations/includes/menu.inc",
+		"/srv/www/jref/current/profiles/jref/modules/custom/nmd_migrate/includes/csv_field_collection.inc",
+		"/srv/www/jref/current/profiles/jref/migrations/includes/pages.inc",
+		"/srv/www/jref/current/profiles/jref/migrations/includes/page_content.inc",
+		"/srv/www/jref/current/profiles/jref/migrations/includes/articles.inc",
+		"/Volumes/HDD/timw/git/project/jref.sublime-project",
+		"/srv/www/jref/current/drupal-org.make",
+		"/srv/www/jref/current/profiles/openpublish/drupal-org.make",
+		"/srv/www/jref/current/profiles/openpublish/drupal-org-core.make",
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/templates/system/html.tpl.php",
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/templates/page/page.tpl.php",
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/README.md",
+		"/srv/www/jref/releases/20140227194302/profiles/openpublish/openpublish.install",
+		"/srv/www/jref/current/profiles/openpublish/openpublish.info",
+		"/srv/www/jref/current/profiles/openpublish/openpublish.install",
+		"/srv/www/jref/current/profiles/jref/jref.profile",
+		"/Users/timw/web/sftp-config.json",
+		"/Volumes/HDD/timw/git/project/nmd.sublime-project",
+		"/srv/www/nmd/current/profiles/newmedia/config/node.type.work.yml",
+		"/srv/www/nmd/current/profiles/newmedia/config/node.type.page.yml",
+		"/srv/www/nmd/current/profiles/newmedia/config/node.type.landing_page.yml",
+		"/srv/www/nmd/current/profiles/newmedia/config/node.type.home_page.yml",
+		"/srv/www/nmd/current/profiles/newmedia/config/node.type.blog.yml",
+		"/srv/www/nmd/current/profiles/newmedia/config/node.type.article.yml",
+		"/srv/www/nmd/current/profiles/newmedia/config/image.style.landing_page_xxl.yml",
+		"/srv/www/nmd/current/profiles/newmedia/themes/newmedia_bare/scss/design/regions/_main.scss",
+		"/srv/www/nmd/current/profiles/newmedia/themes/newmedia_bare/scss/design/fields/_title.scss",
+		"/srv/www/nmd/current/profiles/newmedia/themes/newmedia_bare/templates/page.html.twig",
+		"/srv/www/nmd/current/profiles/newmedia/themes/newmedia_bare/templates/page/page--contact.html.twig",
+		"/srv/www/nmd/releases/20140204174044/profiles/newmedia/themes/newmedia_bare/templates/page/page--contact.html.twig",
+		"/srv/www/nmd/current/profiles/newmedia/themes/newmedia_bare/scss/design/blocks/_blocks.scss",
+		"/srv/www/nmd/current/profiles/newmedia/themes/newmedia_bare/scss/design/blocks/custom/_custom.scss",
+		"/srv/www/nmd/current/profiles/newmedia/themes/newmedia_bare/scss/design/blocks/custom/_contact.scss",
+		"/srv/www/nmd/current/profiles/newmedia/themes/newmedia_bare/scss/styleguide/_forms.scss",
+		"/srv/www/nmd/current/profiles/newmedia/themes/newmedia_bare/newmedia_bare.theme",
+		"/srv/www/nmd/current/profiles/newmedia/themes/newmedia_bare/scss/design/blocks/system/_services.scss",
+		"/srv/www/nmd/current/profiles/newmedia/themes/newmedia_bare/scss/base/_variables.scss",
+		"/srv/www/nmd/current/profiles/newmedia/config/views.view.work.yml",
+		"/srv/www/nmd/current/profiles/newmedia/themes/newmedia_bare/scss/design/blocks/views/taxonomy_term_page/_page.scss",
+		"/srv/www/nmd/current/profiles/newmedia/themes/newmedia_bare/scss/design/blocks/views/taxonomy_term_page/_taxonomy_term_page.scss"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/",
+			"/Users/timw/vagrant/nmd/assets/nmd/current/profiles/newmedia/modules/features",
+			"/Users/timw/vagrant/nmd/assets/nmd/current/profiles/newmedia/modules/features/newmedia_basic_page",
+			"/Users/timwhitney/sites/drupal-lamp/assets/nmd/current",
+			"/Users/timwhitney/sites/drupal-lamp/assets/nmd/current/sites/all/themes/zen_nmd/css",
+			"/Users/timwhitney/sites/drupal-lamp/assets/re/releases/20130826170636/sites/all/modules/contrib/entityform",
+			"<project>",
+			"/Users/timwhitney/sites/drupal-lamp/assets/re/current/sites/all/modules/contrib/entityform",
+			"<project>",
+			"/Users/timwhitney/sites/drupal-lamp/assets/re/current/sites/all/modules/contrib/migrate/migrate_example"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"nmd_aurora",
+			"fonts",
+			"main",
+			"taxonomy_menu",
+			"a",
+			".8",
+			".9",
+			"$white",
+			"rgab",
+			"$white",
+			"40px",
+			"6px",
+			"0",
+			"{",
+			"& ",
+			"orange",
+			"author",
+			"abc",
+			"ABC",
+			"abc",
+			"ABC",
+			"abc",
+			"page_title_block",
+			"main_menu_mobile",
+			"abc",
+			"ABC",
+			",",
+			"15",
+			"$times",
+			"pre",
+			"_image",
+			"l_image'",
+			"image",
+			"thumbnail_image",
+			"example_data",
+			"benznvidia",
+			"NewsStories",
+			"Basic",
+			"field_slide_image",
+			"core",
+			"div",
+			"enable",
+			"/srv/www/jref",
+			"jref",
+			"newmedia",
+			"/Users/timw/web",
+			"/srv/www/nmd/",
+			"</option>",
+			"165px",
+			"%;\n",
+			"icon",
+			"config",
+			"wider",
+			"landing_page",
+			"standard",
+			"narrow",
+			"widest",
+			"wider",
+			"wide",
+			"min-width:",
+			"min-width:1500px;",
+			"min-height",
+			"vagrant",
+			"mymodule",
+			"Mymodule",
+			"mymodule",
+			"());\n",
+			"40",
+			"20px",
+			"toolbar",
+			"module",
+			"toolbar",
+			"module",
+			"toolbar",
+			"module",
+			"toolbar",
+			"module",
+			"medium",
+			"100px",
+			"if",
+			"et_message",
+			"$user",
+			"user",
+			"profiles/newmedia/themes/newmedia_bare/",
+			"fonts/nmd",
+			"@include font-family(",
+			"blue",
+			"times",
+			"inherit",
+			"nmd_basic_page",
+			"nmd",
+			"docroot",
+			"webform-container-inline",
+			"benzadobe",
+			"instruction_pre",
+			"instruction",
+			"form_suffix",
+			"_rubik_local_tasks",
+			"rubik",
+			"$news_items_nids",
+			"facebook",
+			"div",
+			"-footer",
+			"entityform_empty_load",
+			"entityform_form_wrapper",
+			"entityform_edit_form",
+			"entityform_embed_view",
+			"entityform_submission_page",
+			"bio",
+			"title",
+			"Contact",
+			"BasicNmdLocationsMigration",
+			"ame",
+			"[]",
+			"premise",
+			"thoroughfare",
+			"alt",
+			"name",
+			"-",
+			":",
+			"-",
+			"ProjectSpec",
+			"$term",
+			"description",
+			"name",
+			"Term",
+			"$term",
+			"description"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/srv/www/jref/releases/20140311203305/profiles/jref/themes/jref_bare/css/print.css",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/styleguide/_addthis.scss",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/design/fields/_field_image.scss",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/design/fields/_fields.scss",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/design/fields/_body.scss",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/design/blocks/views/page_blocks/_page_blocks.scss",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/design/blocks/system/_system.scss",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"_aggr",
+				"jref_bare/scss/design/blocks/views/_aggregate.scss"
+			],
+			[
+				"_news",
+				"jref_bare/scss/design/blocks/boxes/_newsletter_signup.scss"
+			],
+			[
+				"_sear",
+				"jref_bare/scss/design/blocks/search/_search.scss"
+			],
+			[
+				"comment.tpl",
+				"current/modules/comment/comment-wrapper.tpl.php"
+			],
+			[
+				"dcomment.tp",
+				"current/modules/comment/comment.tpl.php"
+			],
+			[
+				"aggregatescs",
+				"jref_bare/scss/design/blocks/views/_aggregate.scss"
+			],
+			[
+				"forms",
+				"newmedia_bare/scss/styleguide/_forms.scss"
+			],
+			[
+				"newmtheme",
+				"newmedia_bare/newmedia_bare.theme"
+			],
+			[
+				"icon",
+				"newmedia_bare/scss/styleguide/_icons.scss"
+			],
+			[
+				"pager",
+				"current/core/modules/system/templates/pager.html.twig"
+			],
+			[
+				"fieldhtml",
+				"current/core/modules/field/templates/field.html.twig"
+			],
+			[
+				"taxontw",
+				"current/core/modules/taxonomy/templates/taxonomy-term.html.twig"
+			],
+			[
+				"layou",
+				"newmedia_bare/scss/layout/_layout.scss"
+			],
+			[
+				"icons",
+				"newmedia_bare/scss/styleguide/_icons.scss"
+			],
+			[
+				"page.html.twig",
+				"current/core/themes/seven/templates/page.html.twig"
+			],
+			[
+				"entityformtype",
+				"sites/all/modules/contrib/entityform/entityform_type.admin.inc"
+			],
+			[
+				"enty",
+				"/Users/timwhitney/sites/drupal-lamp/assets/re/current/sites/all/modules/contrib/entityform/entityform_type.admin.inc"
+			],
+			[
+				"layout",
+				"nmd_aurora/sass/partials/layout/_layout.scss"
+			],
+			[
+				"main",
+				"modules/custom/local_globals/templates/main_nav.tpl.php"
+			],
+			[
+				"blo",
+				"modules/custom/local_globals/block_helpers.inc"
+			],
+			[
+				"fron",
+				"nmd/migrations/front_page.inc"
+			],
+			[
+				"bloc",
+				"modules/custom/local_globals/block_helpers.inc"
+			],
+			[
+				"template",
+				"nmd_aurora/template.php"
+			],
+			[
+				"block",
+				"modules/custom/local_globals/block_helpers.inc"
+			],
+			[
+				"logo",
+				"nmd_aurora/sass/partials/design/blocks/local_globals/_logo_title_header.scss"
+			],
+			[
+				"before",
+				"modules/custom/local_globals/templates/before_slider.tpl.php"
+			],
+			[
+				"front",
+				"modules/custom/local_globals/templates/front_footer.tpl.php"
+			],
+			[
+				"_font",
+				"nmd_aurora/sass/partials/global/_fonts.scss"
+			],
+			[
+				"frontscs",
+				"nmd_aurora/sass/partials/design/blocks/local_globals/_front_footer.scss"
+			],
+			[
+				"beforescs",
+				"nmd_aurora/sass/partials/design/blocks/local_globals/_before_slider.scss"
+			],
+			[
+				"header",
+				"nmd_aurora/sass/partials/design/blocks/views/categories_cate/_header.scss"
+			],
+			[
+				"footer",
+				"nmd_aurora/sass/partials/design/blocks/local_globals/_footer.scss"
+			],
+			[
+				"inline",
+				"nmd_aurora/javascript/jquery.inline_labels.js"
+			],
+			[
+				"foter",
+				"nmd_aurora/sass/partials/design/blocks/local_globals/_footer.scss"
+			],
+			[
+				"font",
+				"nmd_aurora/sass/partials/global/_fonts.scss"
+			],
+			[
+				"frontsubsli",
+				"nmd_aurora/sass/partials/design/blocks/local_globals/_front_sub_slider.scss"
+			],
+			[
+				"front_sub",
+				"modules/custom/local_globals/templates/front_sub_slider.tpl.php"
+			],
+			[
+				"cong",
+				"modules/custom/local_globals/config.inc"
+			],
+			[
+				"supers",
+				"nmd_aurora/sass/partials/design/blocks/local_globals/_supersized.scss"
+			],
+			[
+				"_layou",
+				"nmd_aurora/sass/partials/layout/_layout.scss"
+			],
+			[
+				"frontfoot",
+				"modules/custom/local_globals/templates/front_footer.tpl.php"
+			],
+			[
+				"superscs",
+				"nmd_aurora/sass/partials/design/blocks/local_globals/_supersized.scss"
+			],
+			[
+				"jsl",
+				"modules/custom/local_globals/javascripts/jquery.front_sub_slider.js"
+			],
+			[
+				"var",
+				"nmd_aurora/sass/partials/base/_variables.scss"
+			],
+			[
+				"button",
+				"nmd_aurora/sass/partials/global/_buttons.scss"
+			],
+			[
+				"variab",
+				"nmd_aurora/sass/partials/base/_variables.scss"
+			],
+			[
+				"mixin",
+				"nmd_aurora/sass/partials/base/_mixins.scss"
+			],
+			[
+				"config",
+				"modules/custom/local_globals/config.inc"
+			],
+			[
+				"aggre",
+				"nmd_aurora/sass/partials/design/blocks/views/_aggregate.scss"
+			],
+			[
+				"fontscss",
+				"nmd_aurora/sass/partials/global/_fonts.scss"
+			],
+			[
+				"info",
+				"nmd/nmd.info"
+			],
+			[
+				"servicescss",
+				"nmd_aurora/sass/partials/design/blocks/local_globals/_services_projects_slideshow.scss"
+			],
+			[
+				"con",
+				"modules/custom/local_globals/config.inc"
+			],
+			[
+				"servicetpl",
+				"modules/custom/local_globals/templates/services_projects_slideshow.tpl.php"
+			],
+			[
+				"servicetax",
+				"modules/custom/local_globals/templates/services_taxo_menu.tpl.php"
+			],
+			[
+				"aggr",
+				"nmd_aurora/sass/partials/design/blocks/views/_aggregate.scss"
+			],
+			[
+				"nmdin",
+				"nmd/nmd.info"
+			],
+			[
+				"nmd",
+				"nmd/nmd.info"
+			],
+			[
+				"exte",
+				"nmd_aurora/sass/partials/global/_extendables.scss"
+			],
+			[
+				"projectmain",
+				"nmd_aurora/sass/partials/design/blocks/views/_project-project_main.scss"
+			],
+			[
+				"service",
+				"nmd_aurora/sass/partials/design/blocks/views/_services-blocks-projects.scss"
+			],
+			[
+				"agg",
+				"nmd_aurora/sass/partials/design/blocks/views/_aggregate.scss"
+			],
+			[
+				"nmins",
+				"nmd/nmd.install"
+			],
+			[
+				"mainscss",
+				"nmd_aurora/sass/partials/design/blocks/local_globals/_main_nav.scss"
+			],
+			[
+				"frontfo",
+				"nmd_aurora/sass/partials/design/blocks/local_globals/_front_footer.scss"
+			],
+			[
+				"foot",
+				"nmd_aurora/sass/partials/design/blocks/local_globals/_footer.scss"
+			],
+			[
+				"maintpl",
+				"modules/custom/local_globals/templates/main_nav.tpl.php"
+			],
+			[
+				"mainjs",
+				"modules/custom/local_globals/javascripts/jquery.main-nav.js"
+			],
+			[
+				"tabs",
+				"nmd_aurora/sass/partials/global/_tabs.scss"
+			],
+			[
+				"nmd.",
+				"nmd/nmd.info"
+			],
+			[
+				"basic",
+				"nmd/migrations/basic_page.inc"
+			],
+			[
+				"frontsu",
+				"modules/custom/local_globals/templates/front_sub_slider.tpl.php"
+			],
+			[
+				"frontsub",
+				"nmd_aurora/sass/partials/design/blocks/local_globals/_front_sub_slider.scss"
+			],
+			[
+				"front_footer",
+				"modules/custom/local_globals/templates/front_footer.tpl.php"
+			],
+			[
+				"fontscs",
+				"nmd_aurora/sass/partials/global/_fonts.scss"
+			],
+			[
+				"foote",
+				"modules/custom/local_globals/templates/footer.tpl.php"
+			],
+			[
+				"subsl",
+				"nmd_aurora/sass/partials/design/blocks/local_globals/_front_sub_slider.scss"
+			],
+			[
+				"sub",
+				"nmd_aurora/sass/partials/design/blocks/local_globals/_front_sub_slider.scss"
+			],
+			[
+				"subsliscss",
+				"nmd_aurora/sass/partials/design/blocks/local_globals/_front_sub_slider.scss"
+			],
+			[
+				"frontfoo",
+				"modules/custom/local_globals/templates/front_footer.tpl.php"
+			],
+			[
+				"s",
+				"modules/custom/local_globals/templates/supersized.tpl.php"
+			],
+			[
+				"color",
+				"nmd_aurora/sass/partials/design/_colorbox.scss"
+			],
+			[
+				"bef",
+				"nmd_aurora/sass/partials/design/blocks/local_globals/_before_slider.scss"
+			],
+			[
+				"super",
+				"modules/custom/local_globals/templates/supersized.tpl.php"
+			],
+			[
+				"frontjs",
+				"modules/custom/local_globals/javascripts/jquery.front_sub_slider.js"
+			],
+			[
+				"colo",
+				"nmd_aurora/sass/partials/design/_colorbox.scss"
+			],
+			[
+				"blockhe",
+				"modules/custom/local_globals/block_helpers.inc"
+			],
+			[
+				"jqucy",
+				"modules/custom/local_globals/javascripts/jquery.cycle.all.js"
+			],
+			[
+				"confi",
+				"modules/custom/local_globals/config.inc"
+			],
+			[
+				"colorboc",
+				"modules/contrib/colorbox/views/colorbox_handler_field_colorbox.inc"
+			],
+			[
+				"colortpl",
+				"modules/contrib/colorbox/colorbox-insert-image.tpl.php"
+			],
+			[
+				"supersiz",
+				"nmd_aurora/sass/partials/design/blocks/local_globals/_supersized.scss"
+			],
+			[
+				"sup",
+				"nmd_aurora/.sass-cache/abf4d5f7d614b770d426bca8f967f0aaa86d3f79/_supersized.scssc"
+			],
+			[
+				"supersized.",
+				"nmd_aurora/sass/partials/design/blocks/local_globals/_supersized.scss"
+			],
+			[
+				"nmdinst",
+				"nmd/nmd.install"
+			],
+			[
+				"templ",
+				"nmd_aurora/template.php"
+			],
+			[
+				"serviceblo",
+				"nmd_aurora/sass/partials/design/blocks/views/_services-blocks-projects.scss"
+			],
+			[
+				"serviscs",
+				"nmd_aurora/sass/partials/design/blocks/views/_services-services-feat-project.scss"
+			],
+			[
+				"servblock",
+				"nmd_aurora/sass/partials/design/blocks/views/_services-blocks-projects.scss"
+			],
+			[
+				"profescs",
+				"nmd_aurora/sass/partials/design/blocks/views/_services-services-feat-project.scss"
+			],
+			[
+				"type",
+				"nmd_aurora/sass/partials/global/_type.scss"
+			],
+			[
+				"viewsscs",
+				"nmd_aurora/sass/partials/design/blocks/views/_views.scss"
+			],
+			[
+				"propro",
+				"nmd_aurora/sass/partials/design/blocks/views/_project-project_main.scss"
+			],
+			[
+				"projectpr",
+				"nmd_aurora/sass/partials/design/blocks/views/_project-project_images.scss"
+			],
+			[
+				"title",
+				"modules/custom/local_globals/templates/logo_title_header.tpl.php"
+			],
+			[
+				"foo",
+				"nmd_aurora/sass/partials/design/blocks/local_globals/_footer.scss"
+			],
+			[
+				"co",
+				"modules/custom/local_globals/config.inc"
+			],
+			[
+				"layoutscs",
+				"20130625170429/sites/all/themes/nmd_aurora/sass/partials/layout/_layout.scss"
+			],
+			[
+				"page.tpl",
+				"20130624180954/modules/system/page.tpl.php"
+			],
+			[
+				"nmdinfo",
+				"20130625170429/profiles/nmd/nmd.info"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/timwhitney/sublime/benzadobe.sublime-project"
+			],
+			[
+				"cic",
+				"/Users/timwhitney/sublime/cic.sublime-project"
+			],
+			[
+				"fur",
+				"/Users/timwhitney/sublime/furniche.sublime-project"
+			],
+			[
+				"d",
+				"/Users/timwhitney/sublime/drupal-lamp.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 435.0,
+	"status_bar_visible": true
+}

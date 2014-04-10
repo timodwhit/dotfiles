@@ -1,0 +1,23 @@
+{
+	"folders":
+	[
+		{
+			"folder_exclude_patterns":
+			[
+				"sites/all"
+			],
+			"path": "/srv/www/riverside/current"
+		},
+		{
+			"path": "/srv/www/riverside/current/sites/all/modules"
+		},
+		{
+			"folder_exclude_patterns":
+			[
+				".sass-cache",
+				"stylesheets"
+			],
+			"path": "/srv/www/riverside/current/sites/all/themes/riverside"
+		}
+	]
+}

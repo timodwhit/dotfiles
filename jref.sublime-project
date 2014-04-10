@@ -1,0 +1,75 @@
+{
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				".DS_Store",
+				"._*"
+			],
+			"folder_exclude_patterns":
+			[
+				"newmedia"
+			],
+			"path": "/srv/www/jref/current"
+		},
+		{
+			"file_exclude_patterns":
+			[
+				"._*",
+				"*.scssc",
+				"*.css",
+				".gitignore",
+				".editorconfig",
+				"Gemfile",
+				"Gemfile.lock"
+			],
+			"folder_exclude_patterns":
+			[
+				".sass-cache",
+				"stylesheets",
+				"themes",
+				"modules"
+			],
+			"path": "/srv/www/jref/current/profiles/jref"
+		},
+		{
+			"path": "/srv/www/jref/current/profiles/jref/modules"
+		},
+		{
+			"file_exclude_patterns":
+			[
+				"*.scssc",
+				"*.css",
+				".gitignore",
+				".editorconfig",
+				"Gemfile",
+				"Gemfile.lock"
+			],
+			"folder_exclude_patterns":
+			[
+				".sass-cache",
+				"stylesheets"
+			],
+			"path": "/srv/www/jref/current/profiles/jref/themes/bare"
+		},
+		{
+			"file_exclude_patterns":
+			[
+				"*.scssc",
+				"*.css",
+				".gitignore",
+				".editorconfig",
+				"Gemfile",
+				"Gemfile.lock"
+			],
+			"folder_exclude_patterns":
+			[
+				".sass-cache",
+				"css",
+				"node_modules"
+			],
+			"path": "/srv/www/jref/current/profiles/jref/themes/jref_bare"
+		}
+	]
+}
