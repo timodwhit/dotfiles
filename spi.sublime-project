@@ -11,7 +11,8 @@
 			[
 				"newmedia"
 			],
-			"path": "/srv/www/postnet/current"
+			"follow_symlinks": true,
+			"path": "/srv/www/spi/current"
 		},
 		{
 			"file_exclude_patterns":
@@ -31,10 +32,12 @@
 				"themes",
 				"modules"
 			],
-			"path": "/srv/www/postnet/current/profiles/postnet"
+			"follow_symlinks": true,
+			"path": "/srv/www/spi/current/profiles/spi"
 		},
 		{
-			"path": "/srv/www/postnet/current/profiles/postnet/modules"
+			"follow_symlinks": true,
+			"path": "/srv/www/spi/current/profiles/spi/modules"
 		},
 		{
 			"file_exclude_patterns":
@@ -51,7 +54,8 @@
 				".sass-cache",
 				"stylesheets"
 			],
-			"path": "/srv/www/postnet/current/profiles/postnet/themes/bare"
+			"follow_symlinks": true,
+			"path": "/srv/www/spi/current/profiles/spi/themes/bare"
 		},
 		{
 			"file_exclude_patterns":
@@ -70,7 +74,8 @@
 				"css",
 				"node_modules"
 			],
-			"path": "/srv/www/postnet/current/profiles/postnet/themes/custom/postnet_bare"
+			"follow_symlinks": true,
+			"path": "/srv/www/spi/current/profiles/spi/themes/custom/spi_bare"
 		}
 	]
 }
