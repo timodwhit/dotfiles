@@ -1,0 +1,40 @@
+<snippet>
+  <content><![CDATA[
+/**
+* Implements hook_block_info().
+*/
+function  ${TM_FILENAME/([^.]*)\..*$/$1/}_block_info() {
+  \$blocks = array();
+  \$blocks['${2:YOUR_BLOCK_ABC}'] = array(
+    'info' => t('${3:YOUR BLOCK NAME}'),
+  );
+  return \$blocks;
+}
+
+/**
+* Implements hook_block_view().
+*/
+function  ${TM_FILENAME/([^.]*)\..*$/$1/}_block_view($delta = '') {
+  \$block = array();
+  switch (\$delta) {
+    case '${2:YOUR_BLOCK_ABC}':
+      \$block['subject'] = '';
+      \$block['content'] = _ ${TM_FILENAME/([^.]*)\..*$/$1/}_${2:YOUR_BLOCK_ABC}_content();
+      break;
+  }
+  return \$block;
+}
+
+/**
+ * Custom Content Function
+ */
+function _ ${TM_FILENAME/([^.]*)\..*$/$1/}_${2:YOUR_BLOCK_ABC}_content() {
+  \$output = t('Hello world');
+  return \$output;
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>drupal_block</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>
