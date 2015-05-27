@@ -85,24 +85,19 @@ wiki() {
         fi
 }
 
-# Compass Watch
-alias ccs='bundle exec compass watch'
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+export PATH=/usr/local/bin:$PATH
+export PATH=~/bin:/usr/local/bin:/usr/local/mysql/bin:$PATH
+export NVM_DIR="/Users/tim.whitney/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+eval "$(chef shell-init zsh)"
 
-# ABC
-alias abcv='cd ~/vagrant/abc'
-alias abcg='cd ~/git/abc'
-alias abc='abcv && cd assets/abc/current'
-alias abct='abc && cd profiles/abc/themes/nmd_aurora'
+# Vagrant commands
+alias vp="vagrant provision"
+alias vrp="vagrant reload --provision"
+alias vup="vagrant up"
+alias vprm="rm ./.vagrant/machines/drupaldev/virtualbox/synced_folders && vrp"
+alias vudu="vagrant destroy -f && vagrant up"
 
-# Riverside Baptist
-alias rvbv='cd ~/vagrant/riverside'
-alias rvbg='cd ~/git/riverside'
-alias rvb='rvbv && cd assets/riverside/current'
-alias rvbt='rvb && cd sites/all/themes/riverside'
-# RE
-alias rev='cd ~/vagrant/re'
-alias reg='cd ~/git/reconstruction-experts'
-alias re='rev && cd assets/re/current'
-alias ret='re && cd sites/all/themes/nmd_aurora'
-
-alias perms='sudo chown -R timwhitney:staff assets'
+alias ll="ls -la"
+alias pl="pwd; ll"

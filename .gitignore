@@ -1,1 +1,7 @@
+# ST3 Things to ignore
 *.sublime-workspace
+Package\ Control.last-run
+Package\ Control.*-ca-bundle
+Package\ Control.cache
+Xdebug.*
+sftp_servers
