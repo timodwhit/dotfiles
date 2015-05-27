@@ -1,0 +1,21 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "/Users/tim.whitney/git/vampd-ui"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/tim.whitney/git/vampd"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/tim.whitney/git/drupal"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/tim.whitney/Downloads/TideSDK-HelloWorld-master"
+		}
+	]
+}

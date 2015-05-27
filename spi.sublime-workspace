@@ -439,6 +439,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "colorado.sublime-project",
+			"settings":
+			{
+				"buffer_size": 929,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "anchorage.sublime-project",
+			"settings":
+			{
+				"buffer_size": 938,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -537,8 +553,15 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/assets/colorado/current/htdocs",
+		"/assets/colorado/current/htdocs/profiles/mmg_custom",
+		"/assets/colorado/current/htdocs/sites/all/modules"
+	],
 	"file_history":
 	[
+		"/assets/colorado/current/htdocs/sites/all/themes/mmg_aurora/template.php",
 		"/srv/www/postnet/current/profiles/postnet/themes/custom/postnet_bare/scss/design/blocks/postnet_center_locator/_locate_center.scss",
 		"/srv/www/postnet/current/profiles/postnet/themes/custom/postnet_bare/scss/design/blocks/postnet_center_locator/_locate_center_corporate_home.scss",
 		"/srv/www/postnet/current/profiles/postnet/themes/custom/postnet_bare/scss/design/regions/_content_top.scss",
@@ -665,8 +688,7 @@
 		"/srv/www/jref/releases/20140311203305/profiles/jref/themes/jref_bare/templates/comment/comment.tpl.php",
 		"/srv/www/jref/current/profiles/jref/drupal-org.make",
 		"/srv/www/jref/current/profiles/jref/themes/jref_bare/scss/styleguide/_forms.scss",
-		"/srv/www/jref/current/profiles/jref/themes/jref_bare/templates/node/node.tpl.php",
-		"/srv/www/jref/current/profiles/jref/themes/jref_bare/js/jref.js"
+		"/srv/www/jref/current/profiles/jref/themes/jref_bare/templates/node/node.tpl.php"
 	],
 	"find":
 	{
@@ -694,6 +716,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"colorado",
+			"profiles/spi",
+			"srv/www",
 			"email",
 			"button",
 			"name",
@@ -818,10 +843,7 @@
 			"entityform_embed_view",
 			"entityform_submission_page",
 			"bio",
-			"title",
-			"Contact",
-			"BasicNmdLocationsMigration",
-			"ame"
+			"title"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -839,8 +861,68 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "colorado.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 929,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								196,
+								196
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "anchorage.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 938,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								927,
+								927
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1413,6 +1495,7 @@
 		],
 		"width": 0.0
 	},
+	"selected_group": 0,
 	"settings":
 	{
 	},

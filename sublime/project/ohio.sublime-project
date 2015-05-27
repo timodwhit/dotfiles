@@ -1,0 +1,86 @@
+{
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				".DS_Store",
+				"._*",
+				".vagrant"
+			],
+			"folder_exclude_patterns":
+			[
+				"sites",
+				"test",
+				".vagrant"
+			],
+			"path": "/Users/tim.whitney/vagrant/ohio"
+		},
+		{
+			"file_exclude_patterns":
+			[
+				".DS_Store",
+				"._*"
+			],
+			"path": "/assets/ohio/current/htdocs"
+		},
+		{
+			"file_exclude_patterns":
+			[
+				".DS_Store",
+				"._*"
+			],
+			"path": "/assets/ohio/current/patches"
+		},
+		{
+			"file_exclude_patterns":
+			[
+				"._*",
+				"*.scssc",
+				"*.css",
+				".gitignore",
+				".editorconfig",
+				"Gemfile",
+				"Gemfile.lock"
+			],
+			"folder_exclude_patterns":
+			[
+				".sass-cache",
+				"stylesheets"
+			],
+			"path": "/assets/ohio/current/htdocs/profiles/mmg_custom"
+		},
+		{
+			"path": "/assets/ohio/current/htdocs/sites/all/modules"
+		},
+		{
+			"file_exclude_patterns":
+			[
+				"*.scssc",
+				"*.css",
+				".gitignore",
+				".editorconfig",
+				"Gemfile.lock"
+			],
+			"folder_exclude_patterns":
+			[
+				".sass-cache",
+				"stylesheets"
+			],
+			"path": "/assets/ohio/current/htdocs/sites/all/themes/custom/doh_bare"
+		}
+	],
+	"settings":
+	{
+		"xdebug":
+		{
+			"close_on_stop": true,
+			"path_mapping":
+			{
+				"/srv/www/ohio/current/htdocs": "/assets/ohio/current/htdocs"
+			},
+			"super_globals": true,
+			"url": "http://ohio.local"
+		}
+	}
+}

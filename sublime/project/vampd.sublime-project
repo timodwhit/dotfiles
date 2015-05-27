@@ -1,0 +1,16 @@
+{
+	"folders":
+	[
+    {
+      "follow_symlinks": true,
+      "path": "/Users/tim.whitney/git/vampd",
+      "folder_exclude_patterns":
+      [
+        ".sass-cache",
+        "bower_components",
+        "node_modules",
+        "test"
+      ]
+    }
+	]
+}

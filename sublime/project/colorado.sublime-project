@@ -1,0 +1,81 @@
+{
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				".DS_Store",
+				"._*",
+				".vagrant"
+			],
+			"folder_exclude_patterns":
+			[
+				"sites",
+				"test",
+				".vagrant",
+			],
+			"follow_symlinks": true,
+			"path": "/Users/tim.whitney/vagrant/miles"
+		},
+		{
+			"file_exclude_patterns":
+			[
+				".DS_Store",
+				"._*"
+			],
+			"follow_symlinks": true,
+			"path": "/assets/colorado/current/htdocs"
+		},
+		{
+			"file_exclude_patterns":
+			[
+				"._*",
+				"*.scssc",
+				"*.css",
+				".gitignore",
+				".editorconfig",
+				"Gemfile",
+				"Gemfile.lock"
+			],
+			"folder_exclude_patterns":
+			[
+				".sass-cache",
+				"stylesheets",
+			],
+			"follow_symlinks": true,
+			"path": "/assets/colorado/current/htdocs/profiles/mmg_custom"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/assets/colorado/current/htdocs/sites/all/modules"
+		},
+		{
+			"file_exclude_patterns":
+			[
+				"*.scssc",
+				"*.css",
+				".gitignore",
+				".editorconfig",
+				"Gemfile",
+				"Gemfile.lock"
+			],
+			"folder_exclude_patterns":
+			[
+				".sass-cache",
+				"stylesheets"
+			],
+			"follow_symlinks": true,
+			"path": "/assets/colorado/current/htdocs/sites/all/themes/mmg_aurora"
+		}
+	],
+	"settings": {
+    "xdebug": {
+    	"path_mapping": {
+				"/srv/www/colorado/current/htdocs" : "/assets/colorado/current/htdocs",
+      },
+      "url": "http://colorado.local",
+			"super_globals": true,
+			"close_on_stop": true
+    }
+	}
+}
