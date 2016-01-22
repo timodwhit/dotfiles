@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file:///assets/miles/current">
+      <excludeFolder url="file:///assets/miles/current/htdocs/sites/all/themes/milescomaurora/css" />
+      <excludeFolder url="file:///assets/miles/current/htdocs/sites/default/files" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

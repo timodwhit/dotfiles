@@ -1,0 +1,16 @@
+southwalton:
+  title: "southwalton"
+  paths: [
+    "/assets/southwalton/current/htdocs"
+    "/assets/southwalton/current/htdocs/sites/all/modules"
+  ]
+mmg_modules:
+  title: "mmg_modules"
+  paths: [
+    "/Users/tim.whitney/git/mmg_de"
+    "/Users/tim.whitney/git/mmg_profile"
+    "/Users/tim.whitney/git/mmg_event"
+    "/Users/tim.whitney/git/mmg_deal"
+    "/Users/tim.whitney/git/mmg_listing_fields"
+    "/Users/tim.whitney/git/mmg_custom"
+  ]

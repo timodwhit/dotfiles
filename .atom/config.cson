@@ -1,0 +1,18 @@
+"*":
+  drupal:
+    fileTypesPhp: "module,install,inc,test"
+  "exception-reporting":
+    userId: "00be0d03-c358-6ff8-6b6f-9d4766dbe1d5"
+  welcome:
+    showOnStartup: false
+  metrics:
+    userId: "a0ad6c2825001d0dd0564e1223dc6dfe8d65c447"
+  "tree-view": {}
+  core:
+    themes: [
+      "one-light-ui"
+      "one-light-syntax"
+    ]
+  editor:
+    invisibles: {}
+    fontSize: 13

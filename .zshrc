@@ -46,6 +46,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 export PATH=$PATH:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin
+export PATH="$HOME/git/drush:$PATH"
 
 # System paths
 alias ...='cd ../..'
@@ -98,6 +99,18 @@ alias vrp="vagrant reload --provision"
 alias vup="vagrant up"
 alias vprm="rm ./.vagrant/machines/drupaldev/virtualbox/synced_folders && vrp"
 alias vudu="vagrant destroy -f && vagrant up"
+alias vgs="vagrant global-status"
 
 alias ll="ls -la"
 alias pl="pwd; ll"
+
+export DOCKER_HOST=tcp://192.168.59.103:2375
+
+# Docker (default for Vagrant based boxes)
+export DOCKER_HOST=tcp://localhost:2375
+
+
+
+# Automatically added by Platform.sh CLI installer
+export PATH="/Users/tim.whitney/.platformsh/bin:$PATH"
+. '/Users/tim.whitney/.platformsh/platform.rc' 2>/dev/null

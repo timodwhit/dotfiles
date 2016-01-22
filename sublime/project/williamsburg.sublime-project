@@ -1,0 +1,79 @@
+{
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				".DS_Store",
+				"._*"
+			],
+			"path": "/assets/williamsburg/current/vampd"
+		},
+		{
+			"file_exclude_patterns":
+			[
+				".DS_Store",
+				"._*"
+			],
+			"path": "/assets/williamsburg/current/htdocs"
+		},
+		{
+			"file_exclude_patterns":
+			[
+				".DS_Store",
+				"._*"
+			],
+			"path": "/assets/williamsburg/current/patches"
+		},
+		{
+			"file_exclude_patterns":
+			[
+				"._*",
+				"*.scssc",
+				"*.css",
+				".gitignore",
+				".editorconfig",
+				"Gemfile",
+				"Gemfile.lock"
+			],
+			"folder_exclude_patterns":
+			[
+				".sass-cache",
+				"stylesheets"
+			],
+			"path": "/assets/williamsburg/current/htdocs/profiles/mmg_custom"
+		},
+		{
+			"path": "/assets/williamsburg/current/htdocs/sites/all/modules"
+		},
+		{
+			"file_exclude_patterns":
+			[
+				"*.scssc",
+				"*.css",
+				".gitignore",
+				".editorconfig",
+				"Gemfile.lock"
+			],
+			"folder_exclude_patterns":
+			[
+				".sass-cache",
+				"stylesheets"
+			],
+			"path": "/assets/williamsburg/current/htdocs/sites/all/themes/custom/vwb_bare"
+		}
+	],
+	"settings":
+	{
+		"xdebug":
+		{
+			"close_on_stop": true,
+			"path_mapping":
+			{
+				"/srv/www/williamsburg/current/htdocs": "/assets/williamsburg/current/htdocs"
+			},
+			"super_globals": true,
+			"url": "http://williamsburg.local"
+		}
+	}
+}

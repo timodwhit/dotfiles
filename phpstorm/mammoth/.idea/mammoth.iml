@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file:///assets/mammoth/current">
+      <excludeFolder url="file:///assets/mammoth/current/htdocs/sites/all/themes/custom/mlt_bare/.sass-cache" />
+      <excludeFolder url="file:///assets/mammoth/current/htdocs/sites/all/themes/custom/mlt_bare/css" />
+      <excludeFolder url="file:///assets/mammoth/current/htdocs/sites/all/themes/custom/mlt_bare/images" />
+      <excludeFolder url="file:///assets/mammoth/current/htdocs/sites/default/files" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
